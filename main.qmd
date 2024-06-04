@@ -20,15 +20,7 @@ data_grid = FileAttachment("data/grid_dep_ojs.csv").csv({delimiter: ";", typed: 
 
 # Dep
 
-## {.topbar}
-
-
-```{ojs}
-Inputs.bind(Inputs.select(data.map(d => d.code_geo.toLocaleString().padStart(2, "0")), {sort: true, unique: true, label: "Dep"}), viewof dep)
-```
-
-## Row {height=70%}
-
+## {.sidebar}
 
 ```{ojs}
 //| output: false
@@ -37,14 +29,14 @@ depFrance = FileAttachment("data/raw.topojson").json()
 depContours = topojson.feature(depFrance, "France")
 
 projection = d3.geoMercator().center([2, 47])                // GPS of location to zoom on
-    .scale(980)                       // This is like the zoom
-    .translate([ 600/2, 300/2 ])
+    .scale(800)                       // This is like the zoom
+    .translate([ 220/2, 220/2 ])
 pathGenerator = d3.geoPath(projection)
 
 frMap = value => {
   const svg = d3.create('svg')
-      .attr('width', 600)
-      .attr('height', 300);
+      .attr('width', 220)
+      .attr('height', 220);
 
   const statesDrawn = svg.selectAll(".state")
     .data(depContours.features)
@@ -52,7 +44,7 @@ frMap = value => {
       .attr("class", "state")
       .attr("d", pathGenerator)
       .attr("fill", "white")
-      .attr("stroke", "blue")
+      .attr("stroke", "grey")
       // sending updates:
       // when a state is clicked, set the value property and emit an input event
       .on('click', (event, d) => svg.property('value', d.properties.INSEE_DEP).dispatch('input'));
@@ -79,8 +71,18 @@ frMap = value => {
 ```
 
 ```{ojs}
+Inputs.bind(
+  Inputs.select(
+    new Map(depContours.features.map(d => [d.properties.LIBELLE_DEPARTEMENT, d.properties.INSEE_DEP])), 
+  {sort: true, label: "Select an area: ", format: ([name, value]) => `${name}`}), 
+  viewof dep
+  )
+```
+
+```{ojs}
 viewof dep = frMap('2A')
 ```
+
 
 
 ```{ojs}
@@ -111,7 +113,9 @@ filtered_last = data_last.filter(function(x) {
   return dep == x.code_geo})
 ```
 
-## Row
+## Column
+
+### Row {height=15%}
 ```{r}
 #| content: valuebox
 #| title: nombre de naissances
@@ -126,7 +130,6 @@ cat(54)
 
 cat(54)
 ```
-
 ```{r}
 #| content: valuebox
 #| title: prema
@@ -136,7 +139,7 @@ cat(54)
 cat(54)
 ```
 
-## Row
+### Row
 
 ```{ojs}
 //| title: last year
@@ -154,7 +157,7 @@ Plot.plot({
     })
 ```
 
-## Row
+### Row
 
 ```{ojs}
 //| title: c24 - par age
@@ -169,22 +172,41 @@ Plot.plot({
 
 # Indicators
 
-## {.sidebar}
+## {.toolbar}
 
-ISD :   
+```{ojs}
+//| output: false
+isd_names = [
+  {isd : "C22", isd_name : "Baby age"},
+  {isd : "C23", isd_name : "Weight"},
+  {isd : "C24", isd_name : "Mother age"}
+]
+
+indicator_names = [
+  {isd : "C22", indicator : "tx_tr_gde_prema_av28sa", indicator_name: "28 weeks"},
+  {isd : "C22", indicator : "tx_gde_prema_av32sa", indicator_name: "32 weeks"},
+  {isd : "C22", indicator : "tx_prema_av37sa", indicator_name: "37 weeks"},
+  {isd : "C23", indicator : "part_nais_moins_1500g", indicator_name: "1500g"},
+  {isd : "C23", indicator : "part_nais_moins_2500g", indicator_name: "2500g"},
+  {isd : "C24", indicator : "part_accouch_m20", indicator_name: "less than 20"},
+  {isd : "C24", indicator : "part_accouch_20_24", indicator_name: "20-24"},
+  {isd : "C24", indicator : "part_accouch_25_29", indicator_name: "25-29"},
+  {isd : "C24", indicator : "part_accouch_30_34", indicator_name: "30-34"},
+  {isd : "C24", indicator : "part_accouch_35_39", indicator_name: "35-39"},
+  {isd : "C24", indicator : "part_accouch_40p", indicator_name: "40 and more"},
+]
+```
 
 ```{ojs}
 // mettre des defaults
 viewof isd = Inputs.radio(
-   data.map(d => d.isd), {sort: true, unique: true, value: "C24"}
+   new Map(isd_names.map(d => [d.isd_name, d.isd])), {format: ([name, value]) => `${name}`, sort: true, unique: true, value: "C24", label: "Indicator: "}
 )
 ```
 
-Indicateur : 
-
 ```{ojs}
 viewof indicator = Inputs.radio(
-   data.filter((x)=>{return x.isd == isd}).map(d => d.indicator), {sort: true, unique: true, value: "part_accouch_m20"}
+   new Map(indicator_names.filter((x)=>{return x.isd == isd}).map(d =>[d.indicator_name, d.indicator])), {sort: true, unique: true, value: "part_accouch_m20", label: "Dimension: "}
 )
 ```
 
@@ -196,7 +218,11 @@ data_grid_filtered = data_grid.filter(function(x){
 
 ```
 
-## Row {height=60%}
+
+
+## Row
+
+### Column
 
 ```{ojs}
 //| title: carte
@@ -217,7 +243,7 @@ Plot.plot({
 })
 ```
 
-## Row
+### Column
 
 ```{ojs}
 //| title: c24 - par age
@@ -240,8 +266,10 @@ Plot.plot({
 
 # Docs
 
+// faire un sub fichier pour voir si c'est possible
+
 This dashboard is an exploration around some context indicators about births in France. It aims at showing some capabilities of [Observable JS](https://observablehq.com/) and [Quarto Dashboard](https://quarto.org/docs/dashboards/interactivity/observable.html) to display data in a reactive context. Data cleaning and wrangling was done in R by Kantiles. Code is available on [Github](https://github.com/kantiles/demo_isd).
 
-Data come from [France's Ministry of Health](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/1520_indicateurs-de-sante-perinatale/information/).
+Data comes from [France's Ministry of Health](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/1520_indicateurs-de-sante-perinatale/information/).
 
 > This vizualisation hasn't been approved by the Ministry of Health and should only be use as a demonstrator. Please see the official dashboard on [VILAS](https://odin-dataviz-drees.sante.gouv.fr/digdash_dashboard_dataviz_drees/?defaultPage=vilas_Accueil&user=dataviz_sante&pass=dataviz_sante).
