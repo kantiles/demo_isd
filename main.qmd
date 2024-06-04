@@ -1,0 +1,174 @@
+---
+title: "Social indicators"
+format: dashboard
+---
+
+```{ojs}
+//| output: false
+
+// load data
+data = FileAttachment("data/isd_assemble_ojs.csv").csv({delimiter: ";", typed: true})
+
+data_grid = FileAttachment("data/grid_dep_ojs.csv").csv({delimiter: ";", typed: true})
+```
+
+# Dep
+
+## {.toolbar}
+
+map
+```{ojs}
+// input on dep + pad on left
+// todo : add map for select + name
+viewof dep = Inputs.select(
+  data.map(d => d.code_geo.toLocaleString().padStart(2, "0")), {sort: true, unique: true}
+)
+```
+
+
+```{ojs}
+//| output: false
+
+
+// filter data
+filtered = data.filter(function(x) {
+  return dep == x.code_geo ;
+})
+
+// filter for each graph
+// to do - function to wrap that
+filtered_c22 = filtered.filter(function(x) {
+  return x.isd == "C22"})
+
+filtered_c23 = filtered.filter(function(x) {
+  return x.isd == "C23"})
+
+filtered_c24 = filtered.filter(function(x) {
+  return x.isd == "C24"})
+
+// last year
+data_last = data.filter(function(x) {
+  return x.annee == 2022})
+
+filtered_last = data_last.filter(function(x) {
+  return dep == x.code_geo})
+```
+
+## Row
+```{r}
+#| content: valuebox
+#| title: nombre de naissances
+
+cat(54)
+```
+
+```{r}
+#| content: valuebox
+#| title: faibles poids
+#| color : red
+
+cat(54)
+```
+
+```{r}
+#| content: valuebox
+#| title: prema
+#| color : blue
+#| icon: pencil
+
+cat(54)
+```
+
+## Row
+
+```{ojs}
+//| title: last year
+
+// todo : function
+
+// barcode with value
+Plot.plot({
+    marks : [
+        Plot.tickX(data_last.filter(function(x) {
+  return x.isd == "C24"}), {x: "value", y: "indicator", stroke:"lightgrey"}),
+        Plot.tickX(filtered_last.filter(function(x) {
+  return x.isd == "C24"}), {x: "value", y: "indicator", stroke:"red"})
+    ]
+    })
+```
+
+## Row
+
+```{ojs}
+//| title: c24 - par age
+Plot.plot({
+    x:{domain: [2012, 2022]},
+    marks : [
+        Plot.areaY(filtered_c24, {x: "annee", y: "value", fill:"indicator"})
+    ]
+    })
+
+```
+
+# Indicators
+
+## {.toolbar}
+
+Indicateur :   
+
+```{ojs}
+// input on dep + pad on left
+// todo : add map for select + name
+viewof isd = Inputs.radio(
+  ["C22", "C23", "C24"]
+)
+
+// ajouter un deuxième pour l'indicateur à choisir
+```
+
+## Row {height=80%}
+
+```{ojs}
+//| title: carte
+
+// indicateur global sur un graph
+Plot.plot({
+  padding: 0,
+  grid: false,
+  color: {type: "linear"},
+  marks: [
+    Plot.cell(data_grid.filter(function(x){
+        return x.isd == "C24" && x.indicator == "part_accouch_40p"
+      }), {x: "col", y: "row", fill: "value", inset: 0.5}),
+    Plot.text(data_grid.filter(function(x){
+        return x.isd == "C24" && x.indicator == "part_accouch_40p"
+      }), {x: "col", y: "row",  text: "value", fill: "black", title: "title"})
+  ]
+})
+```
+
+## Row
+
+```{ojs}
+//| title: c24 - par age
+
+// indicateur global sur un graph
+Plot.plot({
+    x: {axis: "top", grid: true},
+    color: {scheme: "spectral", legend: true},
+    marks: [
+      Plot.ruleX([0]),
+      Plot.barX(data_last.filter(function(x){
+        return x.isd == "C24"
+      }), {x: "value", y: "code_geo", fill: "indicator", title: "indicator", sort: {color: null}}), // color in input order
+      Plot.text(data_last.filter(function(x){
+        return x.isd == "C24"
+      }), Plot.selectMinX({x: "value", y: "code_geo", textAnchor: "end", dx: -6, text: "code_geo"}))
+    ]
+  });
+```
+
+# Docs
+
+Some placeholder text to explain what the indicators are, who calculte them
+Link to VILAS
