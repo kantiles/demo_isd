@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+/* style value boxes */
+.quarto-dashboard .bslib-value-box .value-box-value {
+    font-size: clamp(.1em, 8cqw, 4em) !important;
+}
+
+.quarto-dashboard .bslib-value-box .value-box-title {
+    display: none;
+}
+
+.quarto-dashboard .bslib-value-box .value-box-showcase .bi {
+    font-size: clamp(.1em,max(8cqw,3.2cqh),4em) !important;
+}
+
+/* sidebar note */
+.sidebar-note{
+    position: absolute;
+    bottom: 0;
+    color: grey;
+    font-size: 9pt;
+}
+
+.sidebar-note > p > a {
+    color: grey;
+}
+
+.sidebar-note-right{
+    position: absolute;
+    right: 0;
+    color: grey;
+    font-size: 9pt;
+    max-width: 3cm;
+}
+
+.sidebar-note-right > p > a {
+    color: grey;
+}

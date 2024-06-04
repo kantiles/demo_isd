@@ -1,4 +1,4 @@
 data/
 /.quarto/
-*.html
-main_files/
+.venv/
+.vscode/

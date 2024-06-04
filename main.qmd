@@ -2,52 +2,66 @@
 title: "Birth indicators in France"
 format: 
   dashboard:
-    logo: person-arms-up
     orientation: rows
     nav-buttons:
         - icon: github
           href: https://github.com/kantiles/demo_isd
+    mainfont: Outfit
+    theme:
+      - custom.scss
 ---
+```{r}
+#| label: import_data
+#| output: false
+source(here::here("R/export_data_ojs.R"))
+```
 
 ```{ojs}
 //| output: false
 
-// load data
-data = FileAttachment("data/isd_assemble_ojs.csv").csv({delimiter: ";", typed: true})
+// get data from R
+data = transpose(data_init)
 
-data_grid = FileAttachment("data/grid_dep_ojs.csv").csv({delimiter: ";", typed: true})
+data_grid = transpose(data_grid_init)
 ```
 
-# Dep
+# Geography
 
 ## {.sidebar}
 
 ```{ojs}
 //| output: false
 
-depFrance = FileAttachment("data/raw.topojson").json()
-depContours = topojson.feature(depFrance, "France")
+// topojson file from https://github.com/InseeFrLab/cartiflette
+depFrance = FileAttachment("data/raw.topojson").json();
+depContours = topojson.feature(depFrance, "France");
 
-projection = d3.geoMercator().center([2, 47])                // GPS of location to zoom on
-    .scale(800)                       // This is like the zoom
-    .translate([ 220/2, 220/2 ])
-pathGenerator = d3.geoPath(projection)
+projection = d3
+  .geoMercator()
+  .center([2, 47]) // GPS of location to zoom on
+  .scale(800) // This is like the zoom
+  .translate([220 / 2, 220 / 2]);
 
-frMap = value => {
-  const svg = d3.create('svg')
-      .attr('width', 220)
-      .attr('height', 220);
+pathGenerator = d3.geoPath(projection);
 
-  const statesDrawn = svg.selectAll(".state")
+// France map function
+// inspired by https://observablehq.com/@danielkerrigan/synchronized-map-input
+frMap = (value) => {
+  const svg = d3.create("svg").attr("width", 220).attr("height", 220);
+
+  const statesDrawn = svg
+    .selectAll(".state")
     .data(depContours.features)
     .join("path")
-      .attr("class", "state")
-      .attr("d", pathGenerator)
-      .attr("fill", "white")
-      .attr("stroke", "grey")
-      // sending updates:
-      // when a state is clicked, set the value property and emit an input event
-      .on('click', (event, d) => svg.property('value', d.properties.INSEE_DEP).dispatch('input'));
+    .attr("class", "state")
+    .attr("d", pathGenerator)
+    .attr("fill", "white")
+    .attr("stroke", "grey")
+    // sending updates:
+    // when a state is clicked, set the value property and emit an input event
+    .on("click", (event, d) =>
+      svg.property("value", d.properties.INSEE_DEP).dispatch("input")
+    );
 
   // receiving updates:
   // update the map in the setter
@@ -58,31 +72,29 @@ frMap = value => {
     set(v) {
       value = v;
       statesDrawn
-          .attr("fill", d => d.properties.INSEE_DEP === v ? "blue" : "white")
-          .attr("opacity", d => d.properties.INSEE_DEP === v ? 0.5 : 1.0);
-    }
+        .attr("fill", (d) => (d.properties.INSEE_DEP === v ? "blue" : "white"))
+        .attr("opacity", (d) => (d.properties.INSEE_DEP === v ? 0.5 : 1.0));
+    },
   });
 
   // initial value
-  svg.property('value', value);
-  
+  svg.property("value", value);
+
   return svg.node();
 }
 ```
 
 ```{ojs}
+// bind inputs of select & map
 Inputs.bind(
   Inputs.select(
     new Map(depContours.features.map(d => [d.properties.LIBELLE_DEPARTEMENT, d.properties.INSEE_DEP])), 
   {sort: true, label: "Select an area: ", format: ([name, value]) => `${name}`}), 
   viewof dep
   )
-```
 
-```{ojs}
-viewof dep = frMap('2A')
+viewof dep = frMap("75")
 ```
-
 
 
 ```{ojs}
@@ -97,13 +109,13 @@ filtered = data.filter(function(x) {
 // filter for each graph
 // to do - function to wrap that
 filtered_c22 = filtered.filter(function(x) {
-  return x.isd == "C22"})
+  return x.isd == "Premature births by week of amenorrhea"})
 
 filtered_c23 = filtered.filter(function(x) {
-  return x.isd == "C23"})
+  return x.isd == "Births according to child weight"})
 
 filtered_c24 = filtered.filter(function(x) {
-  return x.isd == "C24"})
+  return x.isd == "Births according to mother age"})
 
 // last year
 data_last = data.filter(function(x) {
@@ -113,46 +125,70 @@ filtered_last = data_last.filter(function(x) {
   return dep == x.code_geo})
 ```
 
+:::sidebar-note
+Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles](https://kantiles.com/).
+:::
+
 ## Column
 
 ### Row {height=15%}
-```{r}
-#| content: valuebox
-#| title: nombre de naissances
 
-cat(54)
+```{ojs}
+//| output: false
+
+// see https://github.com/quarto-dev/quarto-cli/issues/8823
+value_box1 = filtered_last.filter(function(x) {
+  return x.indicator == "Under 20 years old"})[0]["value"]
 ```
 
-```{r}
-#| content: valuebox
-#| title: faibles poids
-#| color : red
+::: {.valuebox icon="person-standing-dress" color="primary"}
+**`{ojs} value_box1`**% of births from mother aged under 20
+:::
 
-cat(54)
-```
-```{r}
-#| content: valuebox
-#| title: prema
-#| color : blue
-#| icon: pencil
+```{ojs}
+//| output: false
 
-cat(54)
+value_box2 = filtered_last.filter(function(x) {
+  return x.indicator == "Less than 2.5kg"})[0]["value"]
 ```
+
+::: {.valuebox icon="rulers" color="danger"}
+**`{ojs} value_box2`**% of babies borned under 2.5kg
+:::
+
+```{ojs}
+//| output: false
+value_box3 = filtered_last.filter(function(x) {
+  return x.indicator == "Before 37 weeks"})[0]["value"]
+```
+
+::: {.valuebox icon="calendar-week" color="warning"}
+**`{ojs} value_box3`**% of births before 37 weeks
+:::
 
 ### Row
 
 ```{ojs}
-//| title: last year
+//| title: Births by mother age - comparison across areas
 
 // todo : function
 
 // barcode with value
 Plot.plot({
+  x: {label: "%"},
+  y: {label: null,
+   domain:["Under 20 years old",
+            "20-24 years old",
+            "25-29 years old",
+            "30-34 years old",
+            "35-39 years old",
+            "40 years old and above"]},
+  marginLeft: 130,
     marks : [
         Plot.tickX(data_last.filter(function(x) {
-  return x.isd == "C24"}), {x: "value", y: "indicator", stroke:"lightgrey"}),
+  return x.isd == "Births according to mother age"}), {x: "value", y: "indicator", stroke:"lightgrey", channels: {Area: "code_geo"}, tip: true}),
         Plot.tickX(filtered_last.filter(function(x) {
-  return x.isd == "C24"}), {x: "value", y: "indicator", stroke:"red"})
+  return x.isd == "Births according to mother age"}), {x: "value", y: "indicator", stroke:"red"})
     ]
     })
 ```
@@ -160,11 +196,26 @@ Plot.plot({
 ### Row
 
 ```{ojs}
-//| title: c24 - par age
+//| title: Births by mother age - change over time
+
+// ajouter plus grande valeur ou derniere
 Plot.plot({
-    x:{domain: [2012, 2022]},
+    x:{label: "Year", domain: [2012, 2022], tickFormat: ""},
+    y:{label: "Difference to France (in %)"},
+    color: {
+      legend: true,
+      type: "categorical",
+      domain:["Under 20 years old",
+            "20-24 years old",
+            "25-29 years old",
+            "30-34 years old",
+            "35-39 years old",
+            "40 years old and above"]
+    },
     marks : [
-        Plot.areaY(filtered_c24, {x: "annee", y: "value", fill:"indicator"})
+        Plot.ruleY(filtered_c24, {x1: 2012, x2: 2022, y: 0, stroke: "grey"}),
+        Plot.lineY(filtered_c24, {x: "annee", y: "diff", stroke: "indicator", marker: "circle", tip: true})
+
     ]
     })
 
@@ -175,38 +226,15 @@ Plot.plot({
 ## {.toolbar}
 
 ```{ojs}
-//| output: false
-isd_names = [
-  {isd : "C22", isd_name : "Baby age"},
-  {isd : "C23", isd_name : "Weight"},
-  {isd : "C24", isd_name : "Mother age"}
-]
-
-indicator_names = [
-  {isd : "C22", indicator : "tx_tr_gde_prema_av28sa", indicator_name: "28 weeks"},
-  {isd : "C22", indicator : "tx_gde_prema_av32sa", indicator_name: "32 weeks"},
-  {isd : "C22", indicator : "tx_prema_av37sa", indicator_name: "37 weeks"},
-  {isd : "C23", indicator : "part_nais_moins_1500g", indicator_name: "1500g"},
-  {isd : "C23", indicator : "part_nais_moins_2500g", indicator_name: "2500g"},
-  {isd : "C24", indicator : "part_accouch_m20", indicator_name: "less than 20"},
-  {isd : "C24", indicator : "part_accouch_20_24", indicator_name: "20-24"},
-  {isd : "C24", indicator : "part_accouch_25_29", indicator_name: "25-29"},
-  {isd : "C24", indicator : "part_accouch_30_34", indicator_name: "30-34"},
-  {isd : "C24", indicator : "part_accouch_35_39", indicator_name: "35-39"},
-  {isd : "C24", indicator : "part_accouch_40p", indicator_name: "40 and more"},
-]
-```
-
-```{ojs}
-// mettre des defaults
+// radio inputs
 viewof isd = Inputs.radio(
-   new Map(isd_names.map(d => [d.isd_name, d.isd])), {format: ([name, value]) => `${name}`, sort: true, unique: true, value: "C24", label: "Indicator: "}
+   data.map(d => d.isd), 
+   {sort: true, unique: true, value: "Births according to mother age", label: "Indicator: "}
 )
-```
 
-```{ojs}
 viewof indicator = Inputs.radio(
-   new Map(indicator_names.filter((x)=>{return x.isd == isd}).map(d =>[d.indicator_name, d.indicator])), {sort: true, unique: true, value: "part_accouch_m20", label: "Dimension: "}
+   data.filter((x)=>{return x.isd == isd}).map(d =>d.indicator), 
+   {sort: true, unique: true, value: "25-29 years old", label: "Dimension: "}
 )
 ```
 
@@ -218,22 +246,25 @@ data_grid_filtered = data_grid.filter(function(x){
 
 ```
 
-
+:::sidebar-note-right
+Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles](https://kantiles.com/).
+:::
 
 ## Row
 
 ### Column
 
 ```{ojs}
-//| title: carte
+//| title: Grid cartogram of choosen indicator and dimension
 
 // indicateur global sur un graph
 Plot.plot({
-  height: 600,
+  height: 700,
+  width: 700,
   axis: null,
   color: {
     type: "linear",
-    scheme: "piyg"
+    scheme: "gnbu"
   },
   marks: [
     Plot.cell(data_grid_filtered, {x: "col", y: "row", fill: "value", inset: 0.5, tip: true}),
@@ -243,33 +274,14 @@ Plot.plot({
 })
 ```
 
-### Column
-
-```{ojs}
-//| title: c24 - par age
-
-// indicateur global sur un graph
-Plot.plot({
-    x: {axis: "top", grid: true, domain:[0, 100]},
-    color: {scheme: "spectral", legend: true},
-    marks: [
-      Plot.ruleX([0]),
-      Plot.barX(data_last.filter(function(x){
-        return x.isd == "C24"
-      }), {x: "value", y: "code_geo", fill: "indicator", title: "indicator", tip: true, sort: {color: null}}), // color in input order
-      Plot.text(data_last.filter(function(x){
-        return x.isd == "C24"
-      }), Plot.selectMinX({x: "value", y: "code_geo", textAnchor: "end", dx: -6, text: "code_geo"}))
-    ]
-  });
-```
-
-# Docs
+# About
 
 // faire un sub fichier pour voir si c'est possible
 
 This dashboard is an exploration around some context indicators about births in France. It aims at showing some capabilities of [Observable JS](https://observablehq.com/) and [Quarto Dashboard](https://quarto.org/docs/dashboards/interactivity/observable.html) to display data in a reactive context. Data cleaning and wrangling was done in R by Kantiles. Code is available on [Github](https://github.com/kantiles/demo_isd).
 
 Data comes from [France's Ministry of Health](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/1520_indicateurs-de-sante-perinatale/information/).
+
+Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles](https://kantiles.com/).
 
 > This vizualisation hasn't been approved by the Ministry of Health and should only be use as a demonstrator. Please see the official dashboard on [VILAS](https://odin-dataviz-drees.sante.gouv.fr/digdash_dashboard_dataviz_drees/?defaultPage=vilas_Accueil&user=dataviz_sante&pass=dataviz_sante).
