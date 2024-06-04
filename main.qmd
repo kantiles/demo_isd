@@ -1,6 +1,12 @@
 ---
-title: "Social indicators"
-format: dashboard
+title: "Birth indicators in France"
+format: 
+  dashboard:
+    logo: person-arms-up
+    orientation: rows
+    nav-buttons:
+        - icon: github
+          href: https://github.com/kantiles/demo_isd
 ---
 
 ```{ojs}
@@ -14,15 +20,66 @@ data_grid = FileAttachment("data/grid_dep_ojs.csv").csv({delimiter: ";", typed: 
 
 # Dep
 
-## {.toolbar}
+## {.topbar}
 
-map
+
 ```{ojs}
-// input on dep + pad on left
-// todo : add map for select + name
-viewof dep = Inputs.select(
-  data.map(d => d.code_geo.toLocaleString().padStart(2, "0")), {sort: true, unique: true}
-)
+Inputs.bind(Inputs.select(data.map(d => d.code_geo.toLocaleString().padStart(2, "0")), {sort: true, unique: true, label: "Dep"}), viewof dep)
+```
+
+## Row {height=70%}
+
+
+```{ojs}
+//| output: false
+
+depFrance = FileAttachment("data/raw.topojson").json()
+depContours = topojson.feature(depFrance, "France")
+
+projection = d3.geoMercator().center([2, 47])                // GPS of location to zoom on
+    .scale(980)                       // This is like the zoom
+    .translate([ 600/2, 300/2 ])
+pathGenerator = d3.geoPath(projection)
+
+frMap = value => {
+  const svg = d3.create('svg')
+      .attr('width', 600)
+      .attr('height', 300);
+
+  const statesDrawn = svg.selectAll(".state")
+    .data(depContours.features)
+    .join("path")
+      .attr("class", "state")
+      .attr("d", pathGenerator)
+      .attr("fill", "white")
+      .attr("stroke", "blue")
+      // sending updates:
+      // when a state is clicked, set the value property and emit an input event
+      .on('click', (event, d) => svg.property('value', d.properties.INSEE_DEP).dispatch('input'));
+
+  // receiving updates:
+  // update the map in the setter
+  Object.defineProperty(svg.node(), "value", {
+    get() {
+      return value;
+    },
+    set(v) {
+      value = v;
+      statesDrawn
+          .attr("fill", d => d.properties.INSEE_DEP === v ? "blue" : "white")
+          .attr("opacity", d => d.properties.INSEE_DEP === v ? 0.5 : 1.0);
+    }
+  });
+
+  // initial value
+  svg.property('value', value);
+  
+  return svg.node();
+}
+```
+
+```{ojs}
+viewof dep = frMap('2A')
 ```
 
 
@@ -112,37 +169,50 @@ Plot.plot({
 
 # Indicators
 
-## {.toolbar}
+## {.sidebar}
 
-Indicateur :   
+ISD :   
 
 ```{ojs}
-// input on dep + pad on left
-// todo : add map for select + name
+// mettre des defaults
 viewof isd = Inputs.radio(
-  ["C22", "C23", "C24"]
+   data.map(d => d.isd), {sort: true, unique: true, value: "C24"}
 )
-
-// ajouter un deuxième pour l'indicateur à choisir
 ```
 
-## Row {height=80%}
+Indicateur : 
+
+```{ojs}
+viewof indicator = Inputs.radio(
+   data.filter((x)=>{return x.isd == isd}).map(d => d.indicator), {sort: true, unique: true, value: "part_accouch_m20"}
+)
+```
+
+```{ojs}
+//| output: false
+data_grid_filtered = data_grid.filter(function(x){
+        return x.isd == isd && x.indicator == indicator
+      })
+
+```
+
+## Row {height=60%}
 
 ```{ojs}
 //| title: carte
 
 // indicateur global sur un graph
 Plot.plot({
-  padding: 0,
-  grid: false,
-  color: {type: "linear"},
+  height: 600,
+  axis: null,
+  color: {
+    type: "linear",
+    scheme: "piyg"
+  },
   marks: [
-    Plot.cell(data_grid.filter(function(x){
-        return x.isd == "C24" && x.indicator == "part_accouch_40p"
-      }), {x: "col", y: "row", fill: "value", inset: 0.5}),
-    Plot.text(data_grid.filter(function(x){
-        return x.isd == "C24" && x.indicator == "part_accouch_40p"
-      }), {x: "col", y: "row",  text: "value", fill: "black", title: "title"})
+    Plot.cell(data_grid_filtered, {x: "col", y: "row", fill: "value", inset: 0.5, tip: true}),
+    Plot.text(data_grid_filtered, {x: "col", y: "row",  text: "code", fill: "black", dy: -5}),
+    Plot.text(data_grid_filtered, {x: "col", y: "row",  text: "value", fill: "black", dy: 7, fillOpacity: 0.6})
   ]
 })
 ```
@@ -154,13 +224,13 @@ Plot.plot({
 
 // indicateur global sur un graph
 Plot.plot({
-    x: {axis: "top", grid: true},
+    x: {axis: "top", grid: true, domain:[0, 100]},
     color: {scheme: "spectral", legend: true},
     marks: [
       Plot.ruleX([0]),
       Plot.barX(data_last.filter(function(x){
         return x.isd == "C24"
-      }), {x: "value", y: "code_geo", fill: "indicator", title: "indicator", sort: {color: null}}), // color in input order
+      }), {x: "value", y: "code_geo", fill: "indicator", title: "indicator", tip: true, sort: {color: null}}), // color in input order
       Plot.text(data_last.filter(function(x){
         return x.isd == "C24"
       }), Plot.selectMinX({x: "value", y: "code_geo", textAnchor: "end", dx: -6, text: "code_geo"}))
@@ -170,5 +240,8 @@ Plot.plot({
 
 # Docs
 
-Some placeholder text to explain what the indicators are, who calculte them
-Link to VILAS
+This dashboard is an exploration around some context indicators about births in France. It aims at showing some capabilities of [Observable JS](https://observablehq.com/) and [Quarto Dashboard](https://quarto.org/docs/dashboards/interactivity/observable.html) to display data in a reactive context. Data cleaning and wrangling was done in R by Kantiles. Code is available on [Github](https://github.com/kantiles/demo_isd).
+
+Data come from [France's Ministry of Health](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/1520_indicateurs-de-sante-perinatale/information/).
+
+> This vizualisation hasn't been approved by the Ministry of Health and should only be use as a demonstrator. Please see the official dashboard on [VILAS](https://odin-dataviz-drees.sante.gouv.fr/digdash_dashboard_dataviz_drees/?defaultPage=vilas_Accueil&user=dataviz_sante&pass=dataviz_sante).
