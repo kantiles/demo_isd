@@ -1,0 +1,1112 @@
+code,name,row,col,annee,indicator,value,isd,value_nat,diff
+62,Pas-de-Calais,1,6,2022,Before 37 weeks,7.02,Premature births by week of amenorrhea,6.81,0.20999999999999996
+62,Pas-de-Calais,1,6,2022,Before 32 weeks,1.02,Premature births by week of amenorrhea,1.11,-0.09000000000000008
+62,Pas-de-Calais,1,6,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+62,Pas-de-Calais,1,6,2022,Less than 2.5kg,6.94,Births according to child weight,7.53,-0.5899999999999999
+62,Pas-de-Calais,1,6,2022,Less than 1.5kg,0.92,Births according to child weight,1.13,-0.20999999999999985
+62,Pas-de-Calais,1,6,2022,Under 20 years old,3.05,Births according to mother age,1.82,1.2299999999999998
+62,Pas-de-Calais,1,6,2022,20-24 years old,17.86,Births according to mother age,11.23,6.629999999999999
+62,Pas-de-Calais,1,6,2022,25-29 years old,32.37,Births according to mother age,27.68,4.689999999999998
+62,Pas-de-Calais,1,6,2022,30-34 years old,30.03,Births according to mother age,34.59,-4.560000000000002
+62,Pas-de-Calais,1,6,2022,35-39 years old,13.59,Births according to mother age,19.36,-5.77
+62,Pas-de-Calais,1,6,2022,40 years old and above,3.1,Births according to mother age,5.32,-2.22
+59,Nord,2,7,2022,Before 37 weeks,6.69,Premature births by week of amenorrhea,6.81,-0.11999999999999922
+59,Nord,2,7,2022,Before 32 weeks,1.16,Premature births by week of amenorrhea,1.11,0.04999999999999982
+59,Nord,2,7,2022,Before 28 weeks,0.43,Premature births by week of amenorrhea,0.4,0.02999999999999997
+59,Nord,2,7,2022,Less than 2.5kg,6.9,Births according to child weight,7.53,-0.6299999999999999
+59,Nord,2,7,2022,Less than 1.5kg,1.08,Births according to child weight,1.13,-0.04999999999999982
+59,Nord,2,7,2022,Under 20 years old,2.69,Births according to mother age,1.82,0.8699999999999999
+59,Nord,2,7,2022,20-24 years old,13.97,Births according to mother age,11.23,2.74
+59,Nord,2,7,2022,25-29 years old,28.64,Births according to mother age,27.68,0.9600000000000009
+59,Nord,2,7,2022,30-34 years old,33.21,Births according to mother age,34.59,-1.3800000000000026
+59,Nord,2,7,2022,35-39 years old,17.19,Births according to mother age,19.36,-2.169999999999998
+59,Nord,2,7,2022,40 years old and above,4.3,Births according to mother age,5.32,-1.0200000000000005
+80,Somme,2,6,2022,Before 37 weeks,7.63,Premature births by week of amenorrhea,6.81,0.8200000000000003
+80,Somme,2,6,2022,Before 32 weeks,1.19,Premature births by week of amenorrhea,1.11,0.07999999999999985
+80,Somme,2,6,2022,Before 28 weeks,0.54,Premature births by week of amenorrhea,0.4,0.14
+80,Somme,2,6,2022,Less than 2.5kg,7.92,Births according to child weight,7.53,0.3899999999999997
+80,Somme,2,6,2022,Less than 1.5kg,1.38,Births according to child weight,1.13,0.25
+80,Somme,2,6,2022,Under 20 years old,2.07,Births according to mother age,1.82,0.24999999999999978
+80,Somme,2,6,2022,20-24 years old,15.61,Births according to mother age,11.23,4.379999999999999
+80,Somme,2,6,2022,25-29 years old,31.01,Births according to mother age,27.68,3.330000000000002
+80,Somme,2,6,2022,30-34 years old,31.67,Births according to mother age,34.59,-2.9200000000000017
+80,Somme,2,6,2022,35-39 years old,15.72,Births according to mother age,19.36,-3.639999999999999
+80,Somme,2,6,2022,40 years old and above,3.92,Births according to mother age,5.32,-1.4000000000000004
+02,Aisne,3,7,2022,Before 37 weeks,7.12,Premature births by week of amenorrhea,6.81,0.3100000000000005
+02,Aisne,3,7,2022,Before 32 weeks,1.31,Premature births by week of amenorrhea,1.11,0.19999999999999996
+02,Aisne,3,7,2022,Before 28 weeks,0.5,Premature births by week of amenorrhea,0.4,0.09999999999999998
+02,Aisne,3,7,2022,Less than 2.5kg,7.88,Births according to child weight,7.53,0.34999999999999964
+02,Aisne,3,7,2022,Less than 1.5kg,1.4,Births according to child weight,1.13,0.27
+02,Aisne,3,7,2022,Under 20 years old,3.6,Births according to mother age,1.82,1.78
+02,Aisne,3,7,2022,20-24 years old,18.35,Births according to mother age,11.23,7.120000000000001
+02,Aisne,3,7,2022,25-29 years old,30.08,Births according to mother age,27.68,2.3999999999999986
+02,Aisne,3,7,2022,30-34 years old,29.59,Births according to mother age,34.59,-5.0000000000000036
+02,Aisne,3,7,2022,35-39 years old,14.43,Births according to mother age,19.36,-4.93
+02,Aisne,3,7,2022,40 years old and above,3.95,Births according to mother age,5.32,-1.37
+76,Seine-Maritime,3,5,2022,Before 37 weeks,7.01,Premature births by week of amenorrhea,6.81,0.20000000000000018
+76,Seine-Maritime,3,5,2022,Before 32 weeks,1.16,Premature births by week of amenorrhea,1.11,0.04999999999999982
+76,Seine-Maritime,3,5,2022,Before 28 weeks,0.41,Premature births by week of amenorrhea,0.4,0.009999999999999953
+76,Seine-Maritime,3,5,2022,Less than 2.5kg,7.91,Births according to child weight,7.53,0.3799999999999999
+76,Seine-Maritime,3,5,2022,Less than 1.5kg,1.08,Births according to child weight,1.13,-0.04999999999999982
+76,Seine-Maritime,3,5,2022,Under 20 years old,2.04,Births according to mother age,1.82,0.21999999999999997
+76,Seine-Maritime,3,5,2022,20-24 years old,13.91,Births according to mother age,11.23,2.6799999999999997
+76,Seine-Maritime,3,5,2022,25-29 years old,30.92,Births according to mother age,27.68,3.240000000000002
+76,Seine-Maritime,3,5,2022,30-34 years old,32.58,Births according to mother age,34.59,-2.010000000000005
+76,Seine-Maritime,3,5,2022,35-39 years old,16.61,Births according to mother age,19.36,-2.75
+76,Seine-Maritime,3,5,2022,40 years old and above,3.94,Births according to mother age,5.32,-1.3800000000000003
+08,Ardennes,3,8,2022,Before 37 weeks,7.92,Premature births by week of amenorrhea,6.81,1.1100000000000003
+08,Ardennes,3,8,2022,Before 32 weeks,1.04,Premature births by week of amenorrhea,1.11,-0.07000000000000006
+08,Ardennes,3,8,2022,Before 28 weeks,0.08,Premature births by week of amenorrhea,0.4,-0.32
+08,Ardennes,3,8,2022,Less than 2.5kg,7.94,Births according to child weight,7.53,0.41000000000000014
+08,Ardennes,3,8,2022,Less than 1.5kg,0.91,Births according to child weight,1.13,-0.21999999999999986
+08,Ardennes,3,8,2022,Under 20 years old,3.24,Births according to mother age,1.82,1.4200000000000002
+08,Ardennes,3,8,2022,20-24 years old,16.19,Births according to mother age,11.23,4.960000000000001
+08,Ardennes,3,8,2022,25-29 years old,34.08,Births according to mother age,27.68,6.399999999999999
+08,Ardennes,3,8,2022,30-34 years old,28.64,Births according to mother age,34.59,-5.950000000000003
+08,Ardennes,3,8,2022,35-39 years old,14.24,Births according to mother age,19.36,-5.119999999999999
+08,Ardennes,3,8,2022,40 years old and above,3.61,Births according to mother age,5.32,-1.7100000000000004
+60,Oise,3,6,2022,Before 37 weeks,6.53,Premature births by week of amenorrhea,6.81,-0.27999999999999936
+60,Oise,3,6,2022,Before 32 weeks,0.96,Premature births by week of amenorrhea,1.11,-0.15000000000000013
+60,Oise,3,6,2022,Before 28 weeks,0.37,Premature births by week of amenorrhea,0.4,-0.030000000000000027
+60,Oise,3,6,2022,Less than 2.5kg,7.34,Births according to child weight,7.53,-0.1900000000000004
+60,Oise,3,6,2022,Less than 1.5kg,1.08,Births according to child weight,1.13,-0.04999999999999982
+60,Oise,3,6,2022,Under 20 years old,1.67,Births according to mother age,1.82,-0.15000000000000013
+60,Oise,3,6,2022,20-24 years old,11.54,Births according to mother age,11.23,0.3099999999999987
+60,Oise,3,6,2022,25-29 years old,29.62,Births according to mother age,27.68,1.9400000000000013
+60,Oise,3,6,2022,30-34 years old,34.53,Births according to mother age,34.59,-0.060000000000002274
+60,Oise,3,6,2022,35-39 years old,18.06,Births according to mother age,19.36,-1.3000000000000007
+60,Oise,3,6,2022,40 years old and above,4.58,Births according to mother age,5.32,-0.7400000000000002
+51,Marne,4,7,2022,Before 37 weeks,7.78,Premature births by week of amenorrhea,6.81,0.9700000000000006
+51,Marne,4,7,2022,Before 32 weeks,1.24,Premature births by week of amenorrhea,1.11,0.1299999999999999
+51,Marne,4,7,2022,Before 28 weeks,0.42,Premature births by week of amenorrhea,0.4,0.019999999999999962
+51,Marne,4,7,2022,Less than 2.5kg,8.22,Births according to child weight,7.53,0.6900000000000004
+51,Marne,4,7,2022,Less than 1.5kg,1.52,Births according to child weight,1.13,0.3900000000000001
+51,Marne,4,7,2022,Under 20 years old,2,Births according to mother age,1.82,0.17999999999999994
+51,Marne,4,7,2022,20-24 years old,13.75,Births according to mother age,11.23,2.5199999999999996
+51,Marne,4,7,2022,25-29 years old,30.65,Births according to mother age,27.68,2.969999999999999
+51,Marne,4,7,2022,30-34 years old,33.45,Births according to mother age,34.59,-1.1400000000000006
+51,Marne,4,7,2022,35-39 years old,16.12,Births according to mother age,19.36,-3.2399999999999984
+51,Marne,4,7,2022,40 years old and above,4.02,Births according to mother age,5.32,-1.3000000000000007
+27,Eure,4,5,2022,Before 37 weeks,6.42,Premature births by week of amenorrhea,6.81,-0.3899999999999997
+27,Eure,4,5,2022,Before 32 weeks,0.91,Premature births by week of amenorrhea,1.11,-0.20000000000000007
+27,Eure,4,5,2022,Before 28 weeks,0.32,Premature births by week of amenorrhea,0.4,-0.08000000000000002
+27,Eure,4,5,2022,Less than 2.5kg,7.88,Births according to child weight,7.53,0.34999999999999964
+27,Eure,4,5,2022,Less than 1.5kg,1.05,Births according to child weight,1.13,-0.07999999999999985
+27,Eure,4,5,2022,Under 20 years old,1.68,Births according to mother age,1.82,-0.14000000000000012
+27,Eure,4,5,2022,20-24 years old,14.13,Births according to mother age,11.23,2.9000000000000004
+27,Eure,4,5,2022,25-29 years old,31.62,Births according to mother age,27.68,3.9400000000000013
+27,Eure,4,5,2022,30-34 years old,31.94,Births according to mother age,34.59,-2.650000000000002
+27,Eure,4,5,2022,35-39 years old,16.5,Births according to mother age,19.36,-2.8599999999999994
+27,Eure,4,5,2022,40 years old and above,4.13,Births according to mother age,5.32,-1.1900000000000004
+67,Bas-Rhin,4,11,2022,Before 37 weeks,6.55,Premature births by week of amenorrhea,6.81,-0.2599999999999998
+67,Bas-Rhin,4,11,2022,Before 32 weeks,1.22,Premature births by week of amenorrhea,1.11,0.10999999999999988
+67,Bas-Rhin,4,11,2022,Before 28 weeks,0.62,Premature births by week of amenorrhea,0.4,0.21999999999999997
+67,Bas-Rhin,4,11,2022,Less than 2.5kg,6.83,Births according to child weight,7.53,-0.7000000000000002
+67,Bas-Rhin,4,11,2022,Less than 1.5kg,1.2,Births according to child weight,1.13,0.07000000000000006
+67,Bas-Rhin,4,11,2022,Under 20 years old,1.35,Births according to mother age,1.82,-0.47
+67,Bas-Rhin,4,11,2022,20-24 years old,9.97,Births according to mother age,11.23,-1.2599999999999998
+67,Bas-Rhin,4,11,2022,25-29 years old,27.28,Births according to mother age,27.68,-0.3999999999999986
+67,Bas-Rhin,4,11,2022,30-34 years old,36.79,Births according to mother age,34.59,2.1999999999999957
+67,Bas-Rhin,4,11,2022,35-39 years old,19.64,Births according to mother age,19.36,0.28000000000000114
+67,Bas-Rhin,4,11,2022,40 years old and above,4.96,Births according to mother age,5.32,-0.3600000000000003
+57,Moselle,4,10,2022,Before 37 weeks,6.89,Premature births by week of amenorrhea,6.81,0.08000000000000007
+57,Moselle,4,10,2022,Before 32 weeks,0.96,Premature births by week of amenorrhea,1.11,-0.15000000000000013
+57,Moselle,4,10,2022,Before 28 weeks,0.33,Premature births by week of amenorrhea,0.4,-0.07
+57,Moselle,4,10,2022,Less than 2.5kg,7.54,Births according to child weight,7.53,0.009999999999999787
+57,Moselle,4,10,2022,Less than 1.5kg,1.09,Births according to child weight,1.13,-0.039999999999999813
+57,Moselle,4,10,2022,Under 20 years old,1.58,Births according to mother age,1.82,-0.24
+57,Moselle,4,10,2022,20-24 years old,11.37,Births according to mother age,11.23,0.1399999999999988
+57,Moselle,4,10,2022,25-29 years old,30.19,Births according to mother age,27.68,2.5100000000000016
+57,Moselle,4,10,2022,30-34 years old,34.97,Births according to mother age,34.59,0.37999999999999545
+57,Moselle,4,10,2022,35-39 years old,17.47,Births according to mother age,19.36,-1.8900000000000006
+57,Moselle,4,10,2022,40 years old and above,4.43,Births according to mother age,5.32,-0.8900000000000006
+54,Meurthe-et-Moselle,4,9,2022,Before 37 weeks,7.3,Premature births by week of amenorrhea,6.81,0.4900000000000002
+54,Meurthe-et-Moselle,4,9,2022,Before 32 weeks,1.33,Premature births by week of amenorrhea,1.11,0.21999999999999997
+54,Meurthe-et-Moselle,4,9,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+54,Meurthe-et-Moselle,4,9,2022,Less than 2.5kg,8.11,Births according to child weight,7.53,0.5799999999999992
+54,Meurthe-et-Moselle,4,9,2022,Less than 1.5kg,1.35,Births according to child weight,1.13,0.2200000000000002
+54,Meurthe-et-Moselle,4,9,2022,Under 20 years old,1.81,Births according to mother age,1.82,-0.010000000000000009
+54,Meurthe-et-Moselle,4,9,2022,20-24 years old,11.48,Births according to mother age,11.23,0.25
+54,Meurthe-et-Moselle,4,9,2022,25-29 years old,29.8,Births according to mother age,27.68,2.120000000000001
+54,Meurthe-et-Moselle,4,9,2022,30-34 years old,35.13,Births according to mother age,34.59,0.5399999999999991
+54,Meurthe-et-Moselle,4,9,2022,35-39 years old,17.4,Births according to mother age,19.36,-1.9600000000000009
+54,Meurthe-et-Moselle,4,9,2022,40 years old and above,4.38,Births according to mother age,5.32,-0.9400000000000004
+55,Meuse,4,8,2022,Before 37 weeks,6.87,Premature births by week of amenorrhea,6.81,0.0600000000000005
+55,Meuse,4,8,2022,Before 32 weeks,0.75,Premature births by week of amenorrhea,1.11,-0.3600000000000001
+55,Meuse,4,8,2022,Before 28 weeks,0.14,Premature births by week of amenorrhea,0.4,-0.26
+55,Meuse,4,8,2022,Less than 2.5kg,7.13,Births according to child weight,7.53,-0.40000000000000036
+55,Meuse,4,8,2022,Less than 1.5kg,0.68,Births according to child weight,1.13,-0.44999999999999984
+55,Meuse,4,8,2022,Under 20 years old,2.18,Births according to mother age,1.82,0.3600000000000001
+55,Meuse,4,8,2022,20-24 years old,17.46,Births according to mother age,11.23,6.23
+55,Meuse,4,8,2022,25-29 years old,31.17,Births according to mother age,27.68,3.490000000000002
+55,Meuse,4,8,2022,30-34 years old,30.08,Births according to mother age,34.59,-4.510000000000005
+55,Meuse,4,8,2022,35-39 years old,15.89,Births according to mother age,19.36,-3.469999999999999
+55,Meuse,4,8,2022,40 years old and above,3.21,Births according to mother age,5.32,-2.1100000000000003
+95,Val-d'Oise,4,6,2022,Before 37 weeks,6.82,Premature births by week of amenorrhea,6.81,0.010000000000000675
+95,Val-d'Oise,4,6,2022,Before 32 weeks,1.37,Premature births by week of amenorrhea,1.11,0.26
+95,Val-d'Oise,4,6,2022,Before 28 weeks,0.59,Premature births by week of amenorrhea,0.4,0.18999999999999995
+95,Val-d'Oise,4,6,2022,Less than 2.5kg,7.69,Births according to child weight,7.53,0.16000000000000014
+95,Val-d'Oise,4,6,2022,Less than 1.5kg,1.37,Births according to child weight,1.13,0.2400000000000002
+95,Val-d'Oise,4,6,2022,Under 20 years old,0.98,Births according to mother age,1.82,-0.8400000000000001
+95,Val-d'Oise,4,6,2022,20-24 years old,8.88,Births according to mother age,11.23,-2.3499999999999996
+95,Val-d'Oise,4,6,2022,25-29 years old,27.84,Births according to mother age,27.68,0.16000000000000014
+95,Val-d'Oise,4,6,2022,30-34 years old,34.78,Births according to mother age,34.59,0.18999999999999773
+95,Val-d'Oise,4,6,2022,35-39 years old,21.21,Births according to mother age,19.36,1.8500000000000014
+95,Val-d'Oise,4,6,2022,40 years old and above,6.31,Births according to mother age,5.32,0.9899999999999993
+14,Calvados,4,4,2022,Before 37 weeks,7.09,Premature births by week of amenorrhea,6.81,0.28000000000000025
+14,Calvados,4,4,2022,Before 32 weeks,1.07,Premature births by week of amenorrhea,1.11,-0.040000000000000036
+14,Calvados,4,4,2022,Before 28 weeks,0.34,Premature births by week of amenorrhea,0.4,-0.06
+14,Calvados,4,4,2022,Less than 2.5kg,8.16,Births according to child weight,7.53,0.6299999999999999
+14,Calvados,4,4,2022,Less than 1.5kg,1.19,Births according to child weight,1.13,0.06000000000000005
+14,Calvados,4,4,2022,Under 20 years old,1.33,Births according to mother age,1.82,-0.49
+14,Calvados,4,4,2022,20-24 years old,12.62,Births according to mother age,11.23,1.3899999999999988
+14,Calvados,4,4,2022,25-29 years old,29.82,Births according to mother age,27.68,2.1400000000000006
+14,Calvados,4,4,2022,30-34 years old,33.57,Births according to mother age,34.59,-1.0200000000000031
+14,Calvados,4,4,2022,35-39 years old,18.59,Births according to mother age,19.36,-0.7699999999999996
+14,Calvados,4,4,2022,40 years old and above,4.07,Births according to mother age,5.32,-1.25
+50,Manche,4,3,2022,Before 37 weeks,6.83,Premature births by week of amenorrhea,6.81,0.020000000000000462
+50,Manche,4,3,2022,Before 32 weeks,1.37,Premature births by week of amenorrhea,1.11,0.26
+50,Manche,4,3,2022,Before 28 weeks,0.37,Premature births by week of amenorrhea,0.4,-0.030000000000000027
+50,Manche,4,3,2022,Less than 2.5kg,7.32,Births according to child weight,7.53,-0.20999999999999996
+50,Manche,4,3,2022,Less than 1.5kg,1.3,Births according to child weight,1.13,0.17000000000000015
+50,Manche,4,3,2022,Under 20 years old,1.33,Births according to mother age,1.82,-0.49
+50,Manche,4,3,2022,20-24 years old,12.66,Births according to mother age,11.23,1.4299999999999997
+50,Manche,4,3,2022,25-29 years old,33.43,Births according to mother age,27.68,5.75
+50,Manche,4,3,2022,30-34 years old,33.36,Births according to mother age,34.59,-1.230000000000004
+50,Manche,4,3,2022,35-39 years old,15.74,Births according to mother age,19.36,-3.619999999999999
+50,Manche,4,3,2022,40 years old and above,3.47,Births according to mother age,5.32,-1.85
+77,Seine-et-Marne,5,7,2022,Before 37 weeks,7.15,Premature births by week of amenorrhea,6.81,0.34000000000000075
+77,Seine-et-Marne,5,7,2022,Before 32 weeks,1.26,Premature births by week of amenorrhea,1.11,0.1499999999999999
+77,Seine-et-Marne,5,7,2022,Before 28 weeks,0.46,Premature births by week of amenorrhea,0.4,0.06
+77,Seine-et-Marne,5,7,2022,Less than 2.5kg,7.6,Births according to child weight,7.53,0.0699999999999994
+77,Seine-et-Marne,5,7,2022,Less than 1.5kg,1.35,Births according to child weight,1.13,0.2200000000000002
+77,Seine-et-Marne,5,7,2022,Under 20 years old,1.1,Births according to mother age,1.82,-0.72
+77,Seine-et-Marne,5,7,2022,20-24 years old,9.09,Births according to mother age,11.23,-2.1400000000000006
+77,Seine-et-Marne,5,7,2022,25-29 years old,27.88,Births according to mother age,27.68,0.1999999999999993
+77,Seine-et-Marne,5,7,2022,30-34 years old,35.77,Births according to mother age,34.59,1.1799999999999997
+77,Seine-et-Marne,5,7,2022,35-39 years old,20.39,Births according to mother age,19.36,1.0300000000000011
+77,Seine-et-Marne,5,7,2022,40 years old and above,5.78,Births according to mother age,5.32,0.45999999999999996
+29,Finistère,5,1,2022,Before 37 weeks,5.62,Premature births by week of amenorrhea,6.81,-1.1899999999999995
+29,Finistère,5,1,2022,Before 32 weeks,0.75,Premature births by week of amenorrhea,1.11,-0.3600000000000001
+29,Finistère,5,1,2022,Before 28 weeks,0.16,Premature births by week of amenorrhea,0.4,-0.24000000000000002
+29,Finistère,5,1,2022,Less than 2.5kg,6.64,Births according to child weight,7.53,-0.8900000000000006
+29,Finistère,5,1,2022,Less than 1.5kg,0.64,Births according to child weight,1.13,-0.4899999999999999
+29,Finistère,5,1,2022,Under 20 years old,1.34,Births according to mother age,1.82,-0.48
+29,Finistère,5,1,2022,20-24 years old,10.41,Births according to mother age,11.23,-0.8200000000000003
+29,Finistère,5,1,2022,25-29 years old,28.65,Births according to mother age,27.68,0.9699999999999989
+29,Finistère,5,1,2022,30-34 years old,36.66,Births according to mother age,34.59,2.069999999999993
+29,Finistère,5,1,2022,35-39 years old,18.63,Births according to mother age,19.36,-0.7300000000000004
+29,Finistère,5,1,2022,40 years old and above,4.31,Births according to mother age,5.32,-1.0100000000000007
+61,Orne,5,3,2022,Before 37 weeks,6.76,Premature births by week of amenorrhea,6.81,-0.04999999999999982
+61,Orne,5,3,2022,Before 32 weeks,0.83,Premature births by week of amenorrhea,1.11,-0.28000000000000014
+61,Orne,5,3,2022,Before 28 weeks,0.33,Premature births by week of amenorrhea,0.4,-0.07
+61,Orne,5,3,2022,Less than 2.5kg,7.02,Births according to child weight,7.53,-0.5100000000000007
+61,Orne,5,3,2022,Less than 1.5kg,0.91,Births according to child weight,1.13,-0.21999999999999986
+61,Orne,5,3,2022,Under 20 years old,2.65,Births according to mother age,1.82,0.8299999999999998
+61,Orne,5,3,2022,20-24 years old,16.34,Births according to mother age,11.23,5.109999999999999
+61,Orne,5,3,2022,25-29 years old,32.38,Births according to mother age,27.68,4.700000000000003
+61,Orne,5,3,2022,30-34 years old,29.57,Births according to mother age,34.59,-5.020000000000003
+61,Orne,5,3,2022,35-39 years old,14.49,Births according to mother age,19.36,-4.869999999999999
+61,Orne,5,3,2022,40 years old and above,4.58,Births according to mother age,5.32,-0.7400000000000002
+28,Eure-et-Loir,5,4,2022,Before 37 weeks,6.59,Premature births by week of amenorrhea,6.81,-0.21999999999999975
+28,Eure-et-Loir,5,4,2022,Before 32 weeks,1.27,Premature births by week of amenorrhea,1.11,0.15999999999999992
+28,Eure-et-Loir,5,4,2022,Before 28 weeks,0.63,Premature births by week of amenorrhea,0.4,0.22999999999999998
+28,Eure-et-Loir,5,4,2022,Less than 2.5kg,7.66,Births according to child weight,7.53,0.1299999999999999
+28,Eure-et-Loir,5,4,2022,Less than 1.5kg,1.16,Births according to child weight,1.13,0.030000000000000027
+28,Eure-et-Loir,5,4,2022,Under 20 years old,1.54,Births according to mother age,1.82,-0.28
+28,Eure-et-Loir,5,4,2022,20-24 years old,13.35,Births according to mother age,11.23,2.119999999999999
+28,Eure-et-Loir,5,4,2022,25-29 years old,29.2,Births according to mother age,27.68,1.5199999999999996
+28,Eure-et-Loir,5,4,2022,30-34 years old,32.38,Births according to mother age,34.59,-2.210000000000001
+28,Eure-et-Loir,5,4,2022,35-39 years old,18.52,Births according to mother age,19.36,-0.8399999999999999
+28,Eure-et-Loir,5,4,2022,40 years old and above,5.01,Births according to mother age,5.32,-0.3100000000000005
+78,Yvelines,5,5,2022,Before 37 weeks,6.49,Premature births by week of amenorrhea,6.81,-0.3199999999999994
+78,Yvelines,5,5,2022,Before 32 weeks,1.17,Premature births by week of amenorrhea,1.11,0.05999999999999983
+78,Yvelines,5,5,2022,Before 28 weeks,0.51,Premature births by week of amenorrhea,0.4,0.10999999999999999
+78,Yvelines,5,5,2022,Less than 2.5kg,7.13,Births according to child weight,7.53,-0.40000000000000036
+78,Yvelines,5,5,2022,Less than 1.5kg,1.27,Births according to child weight,1.13,0.14000000000000012
+78,Yvelines,5,5,2022,Under 20 years old,0.64,Births according to mother age,1.82,-1.1800000000000002
+78,Yvelines,5,5,2022,20-24 years old,6.68,Births according to mother age,11.23,-4.550000000000001
+78,Yvelines,5,5,2022,25-29 years old,25.25,Births according to mother age,27.68,-2.4299999999999997
+78,Yvelines,5,5,2022,30-34 years old,37.39,Births according to mother age,34.59,2.799999999999997
+78,Yvelines,5,5,2022,35-39 years old,23.09,Births according to mother age,19.36,3.7300000000000004
+78,Yvelines,5,5,2022,40 years old and above,6.95,Births according to mother age,5.32,1.63
+68,Haut-Rhin,5,11,2022,Before 37 weeks,6.75,Premature births by week of amenorrhea,6.81,-0.05999999999999961
+68,Haut-Rhin,5,11,2022,Before 32 weeks,1.17,Premature births by week of amenorrhea,1.11,0.05999999999999983
+68,Haut-Rhin,5,11,2022,Before 28 weeks,0.47,Premature births by week of amenorrhea,0.4,0.06999999999999995
+68,Haut-Rhin,5,11,2022,Less than 2.5kg,7.65,Births according to child weight,7.53,0.1200000000000001
+68,Haut-Rhin,5,11,2022,Less than 1.5kg,1.18,Births according to child weight,1.13,0.050000000000000044
+68,Haut-Rhin,5,11,2022,Under 20 years old,1.6,Births according to mother age,1.82,-0.21999999999999997
+68,Haut-Rhin,5,11,2022,20-24 years old,11.55,Births according to mother age,11.23,0.3200000000000003
+68,Haut-Rhin,5,11,2022,25-29 years old,29.98,Births according to mother age,27.68,2.3000000000000007
+68,Haut-Rhin,5,11,2022,30-34 years old,34.48,Births according to mother age,34.59,-0.11000000000000654
+68,Haut-Rhin,5,11,2022,35-39 years old,17.74,Births according to mother age,19.36,-1.620000000000001
+68,Haut-Rhin,5,11,2022,40 years old and above,4.66,Births according to mother age,5.32,-0.6600000000000001
+88,Vosges,5,10,2022,Before 37 weeks,8.03,Premature births by week of amenorrhea,6.81,1.2199999999999998
+88,Vosges,5,10,2022,Before 32 weeks,1.38,Premature births by week of amenorrhea,1.11,0.2699999999999998
+88,Vosges,5,10,2022,Before 28 weeks,0.48,Premature births by week of amenorrhea,0.4,0.07999999999999996
+88,Vosges,5,10,2022,Less than 2.5kg,9.13,Births according to child weight,7.53,1.6000000000000005
+88,Vosges,5,10,2022,Less than 1.5kg,1.28,Births according to child weight,1.13,0.15000000000000013
+88,Vosges,5,10,2022,Under 20 years old,2.57,Births according to mother age,1.82,0.7499999999999998
+88,Vosges,5,10,2022,20-24 years old,16.09,Births according to mother age,11.23,4.859999999999999
+88,Vosges,5,10,2022,25-29 years old,32.01,Births according to mother age,27.68,4.329999999999998
+88,Vosges,5,10,2022,30-34 years old,31.04,Births according to mother age,34.59,-3.5500000000000043
+88,Vosges,5,10,2022,35-39 years old,14.15,Births according to mother age,19.36,-5.209999999999999
+88,Vosges,5,10,2022,40 years old and above,4.14,Births according to mother age,5.32,-1.1800000000000006
+52,Haute-Marne,5,9,2022,Before 37 weeks,7.5,Premature births by week of amenorrhea,6.81,0.6900000000000004
+52,Haute-Marne,5,9,2022,Before 32 weeks,0.97,Premature births by week of amenorrhea,1.11,-0.14000000000000012
+52,Haute-Marne,5,9,2022,Before 28 weeks,0.52,Premature births by week of amenorrhea,0.4,0.12
+52,Haute-Marne,5,9,2022,Less than 2.5kg,7.99,Births according to child weight,7.53,0.45999999999999996
+52,Haute-Marne,5,9,2022,Less than 1.5kg,1.04,Births according to child weight,1.13,-0.08999999999999986
+52,Haute-Marne,5,9,2022,Under 20 years old,2.37,Births according to mother age,1.82,0.55
+52,Haute-Marne,5,9,2022,20-24 years old,15.56,Births according to mother age,11.23,4.33
+52,Haute-Marne,5,9,2022,25-29 years old,32.44,Births according to mother age,27.68,4.759999999999998
+52,Haute-Marne,5,9,2022,30-34 years old,29.78,Births according to mother age,34.59,-4.810000000000002
+52,Haute-Marne,5,9,2022,35-39 years old,16.74,Births according to mother age,19.36,-2.620000000000001
+52,Haute-Marne,5,9,2022,40 years old and above,3.11,Births according to mother age,5.32,-2.2100000000000004
+10,Aube,5,8,2022,Before 37 weeks,7.58,Premature births by week of amenorrhea,6.81,0.7700000000000005
+10,Aube,5,8,2022,Before 32 weeks,1.28,Premature births by week of amenorrhea,1.11,0.16999999999999993
+10,Aube,5,8,2022,Before 28 weeks,0.36,Premature births by week of amenorrhea,0.4,-0.040000000000000036
+10,Aube,5,8,2022,Less than 2.5kg,8.75,Births according to child weight,7.53,1.2199999999999998
+10,Aube,5,8,2022,Less than 1.5kg,1.18,Births according to child weight,1.13,0.050000000000000044
+10,Aube,5,8,2022,Under 20 years old,2.4,Births according to mother age,1.82,0.5799999999999998
+10,Aube,5,8,2022,20-24 years old,15.59,Births according to mother age,11.23,4.359999999999999
+10,Aube,5,8,2022,25-29 years old,29.97,Births according to mother age,27.68,2.289999999999999
+10,Aube,5,8,2022,30-34 years old,31.22,Births according to mother age,34.59,-3.3700000000000045
+10,Aube,5,8,2022,35-39 years old,16.35,Births according to mother age,19.36,-3.009999999999998
+10,Aube,5,8,2022,40 years old and above,4.47,Births according to mother age,5.32,-0.8500000000000005
+93,Seine-St-Denis,5,6,2022,Before 37 weeks,7.22,Premature births by week of amenorrhea,6.81,0.41000000000000014
+93,Seine-St-Denis,5,6,2022,Before 32 weeks,1.5,Premature births by week of amenorrhea,1.11,0.3899999999999999
+93,Seine-St-Denis,5,6,2022,Before 28 weeks,0.67,Premature births by week of amenorrhea,0.4,0.27
+93,Seine-St-Denis,5,6,2022,Less than 2.5kg,7.88,Births according to child weight,7.53,0.34999999999999964
+93,Seine-St-Denis,5,6,2022,Less than 1.5kg,1.39,Births according to child weight,1.13,0.26
+93,Seine-St-Denis,5,6,2022,Under 20 years old,1.45,Births according to mother age,1.82,-0.3700000000000001
+93,Seine-St-Denis,5,6,2022,20-24 years old,10.08,Births according to mother age,11.23,-1.1500000000000004
+93,Seine-St-Denis,5,6,2022,25-29 years old,25.98,Births according to mother age,27.68,-1.6999999999999993
+93,Seine-St-Denis,5,6,2022,30-34 years old,33.36,Births according to mother age,34.59,-1.230000000000004
+93,Seine-St-Denis,5,6,2022,35-39 years old,21.92,Births according to mother age,19.36,2.5600000000000023
+93,Seine-St-Denis,5,6,2022,40 years old and above,7.21,Births according to mother age,5.32,1.8899999999999997
+22,Côtes d'Armor,5,2,2022,Before 37 weeks,6.9,Premature births by week of amenorrhea,6.81,0.09000000000000075
+22,Côtes d'Armor,5,2,2022,Before 32 weeks,1.1,Premature births by week of amenorrhea,1.11,-0.010000000000000009
+22,Côtes d'Armor,5,2,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+22,Côtes d'Armor,5,2,2022,Less than 2.5kg,6.87,Births according to child weight,7.53,-0.6600000000000001
+22,Côtes d'Armor,5,2,2022,Less than 1.5kg,0.94,Births according to child weight,1.13,-0.18999999999999995
+22,Côtes d'Armor,5,2,2022,Under 20 years old,1.68,Births according to mother age,1.82,-0.14000000000000012
+22,Côtes d'Armor,5,2,2022,20-24 years old,11.37,Births according to mother age,11.23,0.1399999999999988
+22,Côtes d'Armor,5,2,2022,25-29 years old,30.87,Births according to mother age,27.68,3.1900000000000013
+22,Côtes d'Armor,5,2,2022,30-34 years old,34.24,Births according to mother age,34.59,-0.3500000000000014
+22,Côtes d'Armor,5,2,2022,35-39 years old,17.68,Births according to mother age,19.36,-1.6799999999999997
+22,Côtes d'Armor,5,2,2022,40 years old and above,4.16,Births according to mother age,5.32,-1.1600000000000001
+971,Guadeloupe,5,13,2022,Before 37 weeks,9.94,Premature births by week of amenorrhea,6.81,3.13
+971,Guadeloupe,5,13,2022,Before 32 weeks,2.27,Premature births by week of amenorrhea,1.11,1.16
+971,Guadeloupe,5,13,2022,Before 28 weeks,0.95,Premature births by week of amenorrhea,0.4,0.5499999999999999
+971,Guadeloupe,5,13,2022,Less than 2.5kg,12.39,Births according to child weight,7.53,4.86
+971,Guadeloupe,5,13,2022,Less than 1.5kg,2.68,Births according to child weight,1.13,1.5500000000000003
+971,Guadeloupe,5,13,2022,Under 20 years old,3.75,Births according to mother age,1.82,1.93
+971,Guadeloupe,5,13,2022,20-24 years old,15.69,Births according to mother age,11.23,4.459999999999999
+971,Guadeloupe,5,13,2022,25-29 years old,24.98,Births according to mother age,27.68,-2.6999999999999993
+971,Guadeloupe,5,13,2022,30-34 years old,27.71,Births according to mother age,34.59,-6.880000000000003
+971,Guadeloupe,5,13,2022,35-39 years old,19.97,Births according to mother age,19.36,0.6099999999999994
+971,Guadeloupe,5,13,2022,40 years old and above,7.9,Births according to mother age,5.32,2.58
+53,Mayenne,6,3,2022,Before 37 weeks,6.54,Premature births by week of amenorrhea,6.81,-0.2699999999999996
+53,Mayenne,6,3,2022,Before 32 weeks,1.03,Premature births by week of amenorrhea,1.11,-0.08000000000000007
+53,Mayenne,6,3,2022,Before 28 weeks,0.5,Premature births by week of amenorrhea,0.4,0.09999999999999998
+53,Mayenne,6,3,2022,Less than 2.5kg,7.3,Births according to child weight,7.53,-0.23000000000000043
+53,Mayenne,6,3,2022,Less than 1.5kg,1.16,Births according to child weight,1.13,0.030000000000000027
+53,Mayenne,6,3,2022,Under 20 years old,2.04,Births according to mother age,1.82,0.21999999999999997
+53,Mayenne,6,3,2022,20-24 years old,14.02,Births according to mother age,11.23,2.789999999999999
+53,Mayenne,6,3,2022,25-29 years old,33.28,Births according to mother age,27.68,5.600000000000001
+53,Mayenne,6,3,2022,30-34 years old,32.64,Births according to mother age,34.59,-1.9500000000000028
+53,Mayenne,6,3,2022,35-39 years old,14.75,Births according to mother age,19.36,-4.609999999999999
+53,Mayenne,6,3,2022,40 years old and above,3.27,Births according to mother age,5.32,-2.0500000000000003
+56,Morbihan,6,1,2022,Before 37 weeks,5.95,Premature births by week of amenorrhea,6.81,-0.8599999999999994
+56,Morbihan,6,1,2022,Before 32 weeks,1.09,Premature births by week of amenorrhea,1.11,-0.020000000000000018
+56,Morbihan,6,1,2022,Before 28 weeks,0.33,Premature births by week of amenorrhea,0.4,-0.07
+56,Morbihan,6,1,2022,Less than 2.5kg,6.89,Births according to child weight,7.53,-0.6400000000000006
+56,Morbihan,6,1,2022,Less than 1.5kg,1.16,Births according to child weight,1.13,0.030000000000000027
+56,Morbihan,6,1,2022,Under 20 years old,1.08,Births according to mother age,1.82,-0.74
+56,Morbihan,6,1,2022,20-24 years old,10.49,Births according to mother age,11.23,-0.7400000000000002
+56,Morbihan,6,1,2022,25-29 years old,28.87,Births according to mother age,27.68,1.1900000000000013
+56,Morbihan,6,1,2022,30-34 years old,35.51,Births according to mother age,34.59,0.9199999999999946
+56,Morbihan,6,1,2022,35-39 years old,18.91,Births according to mother age,19.36,-0.4499999999999993
+56,Morbihan,6,1,2022,40 years old and above,5.13,Births according to mother age,5.32,-0.1900000000000004
+70,Haute-Saône,6,10,2022,Before 37 weeks,6.24,Premature births by week of amenorrhea,6.81,-0.5699999999999994
+70,Haute-Saône,6,10,2022,Before 32 weeks,1.32,Premature births by week of amenorrhea,1.11,0.20999999999999996
+70,Haute-Saône,6,10,2022,Before 28 weeks,0.58,Premature births by week of amenorrhea,0.4,0.17999999999999994
+70,Haute-Saône,6,10,2022,Less than 2.5kg,8.47,Births according to child weight,7.53,0.9400000000000004
+70,Haute-Saône,6,10,2022,Less than 1.5kg,1.11,Births according to child weight,1.13,-0.019999999999999796
+70,Haute-Saône,6,10,2022,Under 20 years old,2.19,Births according to mother age,1.82,0.3699999999999999
+70,Haute-Saône,6,10,2022,20-24 years old,14.09,Births according to mother age,11.23,2.8599999999999994
+70,Haute-Saône,6,10,2022,25-29 years old,34.26,Births according to mother age,27.68,6.579999999999998
+70,Haute-Saône,6,10,2022,30-34 years old,30.31,Births according to mother age,34.59,-4.280000000000005
+70,Haute-Saône,6,10,2022,35-39 years old,15.58,Births according to mother age,19.36,-3.7799999999999994
+70,Haute-Saône,6,10,2022,40 years old and above,3.58,Births according to mother age,5.32,-1.7400000000000002
+90,Territoire-de-Belfort,6,11,2022,Before 37 weeks,6.37,Premature births by week of amenorrhea,6.81,-0.4399999999999995
+90,Territoire-de-Belfort,6,11,2022,Before 32 weeks,1.19,Premature births by week of amenorrhea,1.11,0.07999999999999985
+90,Territoire-de-Belfort,6,11,2022,Before 28 weeks,0.15,Premature births by week of amenorrhea,0.4,-0.25
+90,Territoire-de-Belfort,6,11,2022,Less than 2.5kg,7.15,Births according to child weight,7.53,-0.3799999999999999
+90,Territoire-de-Belfort,6,11,2022,Less than 1.5kg,0.81,Births according to child weight,1.13,-0.31999999999999984
+90,Territoire-de-Belfort,6,11,2022,Under 20 years old,1.8,Births according to mother age,1.82,-0.020000000000000018
+90,Territoire-de-Belfort,6,11,2022,20-24 years old,12.27,Births according to mother age,11.23,1.0399999999999991
+90,Territoire-de-Belfort,6,11,2022,25-29 years old,29.92,Births according to mother age,27.68,2.240000000000002
+90,Territoire-de-Belfort,6,11,2022,30-34 years old,33.51,Births according to mother age,34.59,-1.0800000000000054
+90,Territoire-de-Belfort,6,11,2022,35-39 years old,17.88,Births according to mother age,19.36,-1.4800000000000004
+90,Territoire-de-Belfort,6,11,2022,40 years old and above,4.64,Births according to mother age,5.32,-0.6800000000000006
+75,Paris,6,6,2022,Before 37 weeks,6.27,Premature births by week of amenorrhea,6.81,-0.54
+75,Paris,6,6,2022,Before 32 weeks,1.05,Premature births by week of amenorrhea,1.11,-0.06000000000000005
+75,Paris,6,6,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+75,Paris,6,6,2022,Less than 2.5kg,6.95,Births according to child weight,7.53,-0.5800000000000001
+75,Paris,6,6,2022,Less than 1.5kg,1.04,Births according to child weight,1.13,-0.08999999999999986
+75,Paris,6,6,2022,Under 20 years old,0.64,Births according to mother age,1.82,-1.1800000000000002
+75,Paris,6,6,2022,20-24 years old,4.92,Births according to mother age,11.23,-6.3100000000000005
+75,Paris,6,6,2022,25-29 years old,16.15,Births according to mother age,27.68,-11.530000000000001
+75,Paris,6,6,2022,30-34 years old,39.51,Births according to mother age,34.59,4.919999999999995
+75,Paris,6,6,2022,35-39 years old,28.94,Births according to mother age,19.36,9.580000000000002
+75,Paris,6,6,2022,40 years old and above,9.84,Births according to mother age,5.32,4.52
+92,Hauts-de-Seine,6,5,2022,Before 37 weeks,5.94,Premature births by week of amenorrhea,6.81,-0.8699999999999992
+92,Hauts-de-Seine,6,5,2022,Before 32 weeks,0.91,Premature births by week of amenorrhea,1.11,-0.20000000000000007
+92,Hauts-de-Seine,6,5,2022,Before 28 weeks,0.32,Premature births by week of amenorrhea,0.4,-0.08000000000000002
+92,Hauts-de-Seine,6,5,2022,Less than 2.5kg,6.5,Births according to child weight,7.53,-1.0300000000000002
+92,Hauts-de-Seine,6,5,2022,Less than 1.5kg,1,Births according to child weight,1.13,-0.1299999999999999
+92,Hauts-de-Seine,6,5,2022,Under 20 years old,0.33,Births according to mother age,1.82,-1.49
+92,Hauts-de-Seine,6,5,2022,20-24 years old,4.37,Births according to mother age,11.23,-6.86
+92,Hauts-de-Seine,6,5,2022,25-29 years old,19.7,Births according to mother age,27.68,-7.98
+92,Hauts-de-Seine,6,5,2022,30-34 years old,40.54,Births according to mother age,34.59,5.949999999999996
+92,Hauts-de-Seine,6,5,2022,35-39 years old,26.98,Births according to mother age,19.36,7.620000000000001
+92,Hauts-de-Seine,6,5,2022,40 years old and above,8.09,Births according to mother age,5.32,2.7699999999999996
+89,Yonne,6,8,2022,Before 37 weeks,6.95,Premature births by week of amenorrhea,6.81,0.14000000000000057
+89,Yonne,6,8,2022,Before 32 weeks,1.11,Premature births by week of amenorrhea,1.11,0
+89,Yonne,6,8,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+89,Yonne,6,8,2022,Less than 2.5kg,8.26,Births according to child weight,7.53,0.7299999999999995
+89,Yonne,6,8,2022,Less than 1.5kg,1.08,Births according to child weight,1.13,-0.04999999999999982
+89,Yonne,6,8,2022,Under 20 years old,2.02,Births according to mother age,1.82,0.19999999999999996
+89,Yonne,6,8,2022,20-24 years old,12.84,Births according to mother age,11.23,1.6099999999999994
+89,Yonne,6,8,2022,25-29 years old,31.41,Births according to mother age,27.68,3.7300000000000004
+89,Yonne,6,8,2022,30-34 years old,32.79,Births according to mother age,34.59,-1.8000000000000043
+89,Yonne,6,8,2022,35-39 years old,16.28,Births according to mother age,19.36,-3.0799999999999983
+89,Yonne,6,8,2022,40 years old and above,4.65,Births according to mother age,5.32,-0.6699999999999999
+21,Côte d'Or,6,9,2022,Before 37 weeks,7.43,Premature births by week of amenorrhea,6.81,0.6200000000000001
+21,Côte d'Or,6,9,2022,Before 32 weeks,0.71,Premature births by week of amenorrhea,1.11,-0.40000000000000013
+21,Côte d'Or,6,9,2022,Before 28 weeks,0.27,Premature births by week of amenorrhea,0.4,-0.13
+21,Côte d'Or,6,9,2022,Less than 2.5kg,7.72,Births according to child weight,7.53,0.1899999999999995
+21,Côte d'Or,6,9,2022,Less than 1.5kg,0.55,Births according to child weight,1.13,-0.5799999999999998
+21,Côte d'Or,6,9,2022,Under 20 years old,1.25,Births according to mother age,1.82,-0.5700000000000001
+21,Côte d'Or,6,9,2022,20-24 years old,10.2,Births according to mother age,11.23,-1.0300000000000011
+21,Côte d'Or,6,9,2022,25-29 years old,29.58,Births according to mother age,27.68,1.8999999999999986
+21,Côte d'Or,6,9,2022,30-34 years old,36.74,Births according to mother age,34.59,2.1499999999999986
+21,Côte d'Or,6,9,2022,35-39 years old,17.72,Births according to mother age,19.36,-1.6400000000000006
+21,Côte d'Or,6,9,2022,40 years old and above,4.5,Births according to mother age,5.32,-0.8200000000000003
+72,Sarthe,6,4,2022,Before 37 weeks,5.88,Premature births by week of amenorrhea,6.81,-0.9299999999999997
+72,Sarthe,6,4,2022,Before 32 weeks,0.89,Premature births by week of amenorrhea,1.11,-0.22000000000000008
+72,Sarthe,6,4,2022,Before 28 weeks,0.25,Premature births by week of amenorrhea,0.4,-0.15000000000000002
+72,Sarthe,6,4,2022,Less than 2.5kg,7.49,Births according to child weight,7.53,-0.040000000000000036
+72,Sarthe,6,4,2022,Less than 1.5kg,1.08,Births according to child weight,1.13,-0.04999999999999982
+72,Sarthe,6,4,2022,Under 20 years old,1.86,Births according to mother age,1.82,0.040000000000000036
+72,Sarthe,6,4,2022,20-24 years old,14.82,Births according to mother age,11.23,3.59
+72,Sarthe,6,4,2022,25-29 years old,32,Births according to mother age,27.68,4.32
+72,Sarthe,6,4,2022,30-34 years old,31.73,Births according to mother age,34.59,-2.860000000000003
+72,Sarthe,6,4,2022,35-39 years old,15.64,Births according to mother age,19.36,-3.719999999999999
+72,Sarthe,6,4,2022,40 years old and above,3.95,Births according to mother age,5.32,-1.37
+35,Ille-et-Vilaine,6,2,2022,Before 37 weeks,5.67,Premature births by week of amenorrhea,6.81,-1.1399999999999997
+35,Ille-et-Vilaine,6,2,2022,Before 32 weeks,0.87,Premature births by week of amenorrhea,1.11,-0.2400000000000001
+35,Ille-et-Vilaine,6,2,2022,Before 28 weeks,0.31,Premature births by week of amenorrhea,0.4,-0.09000000000000002
+35,Ille-et-Vilaine,6,2,2022,Less than 2.5kg,6.31,Births according to child weight,7.53,-1.2200000000000006
+35,Ille-et-Vilaine,6,2,2022,Less than 1.5kg,0.88,Births according to child weight,1.13,-0.2499999999999999
+35,Ille-et-Vilaine,6,2,2022,Under 20 years old,0.93,Births according to mother age,1.82,-0.89
+35,Ille-et-Vilaine,6,2,2022,20-24 years old,9.35,Births according to mother age,11.23,-1.8800000000000008
+35,Ille-et-Vilaine,6,2,2022,25-29 years old,28.49,Births according to mother age,27.68,0.8099999999999987
+35,Ille-et-Vilaine,6,2,2022,30-34 years old,37.69,Births according to mother age,34.59,3.0999999999999943
+35,Ille-et-Vilaine,6,2,2022,35-39 years old,18.95,Births according to mother age,19.36,-0.41000000000000014
+35,Ille-et-Vilaine,6,2,2022,40 years old and above,4.59,Births according to mother age,5.32,-0.7300000000000004
+94,Val-de-Marne,6,7,2022,Before 37 weeks,7.28,Premature births by week of amenorrhea,6.81,0.47000000000000064
+94,Val-de-Marne,6,7,2022,Before 32 weeks,1.23,Premature births by week of amenorrhea,1.11,0.11999999999999988
+94,Val-de-Marne,6,7,2022,Before 28 weeks,0.55,Premature births by week of amenorrhea,0.4,0.15000000000000002
+94,Val-de-Marne,6,7,2022,Less than 2.5kg,7.7,Births according to child weight,7.53,0.16999999999999993
+94,Val-de-Marne,6,7,2022,Less than 1.5kg,1.35,Births according to child weight,1.13,0.2200000000000002
+94,Val-de-Marne,6,7,2022,Under 20 years old,0.94,Births according to mother age,1.82,-0.8800000000000001
+94,Val-de-Marne,6,7,2022,20-24 years old,7.71,Births according to mother age,11.23,-3.5200000000000005
+94,Val-de-Marne,6,7,2022,25-29 years old,23.93,Births according to mother age,27.68,-3.75
+94,Val-de-Marne,6,7,2022,30-34 years old,36.51,Births according to mother age,34.59,1.9199999999999946
+94,Val-de-Marne,6,7,2022,35-39 years old,23.54,Births according to mother age,19.36,4.18
+94,Val-de-Marne,6,7,2022,40 years old and above,7.38,Births according to mother age,5.32,2.0599999999999996
+972,Martinique,6,13,2022,Before 37 weeks,9.09,Premature births by week of amenorrhea,6.81,2.2800000000000002
+972,Martinique,6,13,2022,Before 32 weeks,1.7,Premature births by week of amenorrhea,1.11,0.5899999999999999
+972,Martinique,6,13,2022,Before 28 weeks,0.91,Premature births by week of amenorrhea,0.4,0.51
+972,Martinique,6,13,2022,Less than 2.5kg,10.66,Births according to child weight,7.53,3.13
+972,Martinique,6,13,2022,Less than 1.5kg,2.28,Births according to child weight,1.13,1.15
+972,Martinique,6,13,2022,Under 20 years old,3.78,Births according to mother age,1.82,1.9599999999999997
+972,Martinique,6,13,2022,20-24 years old,16.8,Births according to mother age,11.23,5.57
+972,Martinique,6,13,2022,25-29 years old,22.75,Births according to mother age,27.68,-4.93
+972,Martinique,6,13,2022,30-34 years old,29.56,Births according to mother age,34.59,-5.030000000000005
+972,Martinique,6,13,2022,35-39 years old,20.74,Births according to mother age,19.36,1.379999999999999
+972,Martinique,6,13,2022,40 years old and above,6.34,Births according to mother age,5.32,1.0199999999999996
+44,Loire-Atlantique,7,3,2022,Before 37 weeks,6.13,Premature births by week of amenorrhea,6.81,-0.6799999999999997
+44,Loire-Atlantique,7,3,2022,Before 32 weeks,1.08,Premature births by week of amenorrhea,1.11,-0.030000000000000027
+44,Loire-Atlantique,7,3,2022,Before 28 weeks,0.41,Premature births by week of amenorrhea,0.4,0.009999999999999953
+44,Loire-Atlantique,7,3,2022,Less than 2.5kg,6.58,Births according to child weight,7.53,-0.9500000000000002
+44,Loire-Atlantique,7,3,2022,Less than 1.5kg,0.88,Births according to child weight,1.13,-0.2499999999999999
+44,Loire-Atlantique,7,3,2022,Under 20 years old,1.57,Births according to mother age,1.82,-0.25
+44,Loire-Atlantique,7,3,2022,20-24 years old,9.93,Births according to mother age,11.23,-1.3000000000000007
+44,Loire-Atlantique,7,3,2022,25-29 years old,26.3,Births according to mother age,27.68,-1.379999999999999
+44,Loire-Atlantique,7,3,2022,30-34 years old,37.99,Births according to mother age,34.59,3.3999999999999986
+44,Loire-Atlantique,7,3,2022,35-39 years old,19.61,Births according to mother age,19.36,0.25
+44,Loire-Atlantique,7,3,2022,40 years old and above,4.61,Births according to mother age,5.32,-0.71
+58,Nièvre,7,8,2022,Before 37 weeks,6.35,Premature births by week of amenorrhea,6.81,-0.45999999999999996
+58,Nièvre,7,8,2022,Before 32 weeks,1.6,Premature births by week of amenorrhea,1.11,0.49
+58,Nièvre,7,8,2022,Before 28 weeks,0.8,Premature births by week of amenorrhea,0.4,0.4
+58,Nièvre,7,8,2022,Less than 2.5kg,8.58,Births according to child weight,7.53,1.0499999999999998
+58,Nièvre,7,8,2022,Less than 1.5kg,1.66,Births according to child weight,1.13,0.53
+58,Nièvre,7,8,2022,Under 20 years old,2.88,Births according to mother age,1.82,1.0599999999999998
+58,Nièvre,7,8,2022,20-24 years old,15.02,Births according to mother age,11.23,3.789999999999999
+58,Nièvre,7,8,2022,25-29 years old,31.66,Births according to mother age,27.68,3.9800000000000004
+58,Nièvre,7,8,2022,30-34 years old,30.32,Births according to mother age,34.59,-4.270000000000003
+58,Nièvre,7,8,2022,35-39 years old,16.1,Births according to mother age,19.36,-3.259999999999998
+58,Nièvre,7,8,2022,40 years old and above,4.02,Births according to mother age,5.32,-1.3000000000000007
+91,Essonne,7,6,2022,Before 37 weeks,7.22,Premature births by week of amenorrhea,6.81,0.41000000000000014
+91,Essonne,7,6,2022,Before 32 weeks,1.39,Premature births by week of amenorrhea,1.11,0.2799999999999998
+91,Essonne,7,6,2022,Before 28 weeks,0.44,Premature births by week of amenorrhea,0.4,0.03999999999999998
+91,Essonne,7,6,2022,Less than 2.5kg,7.84,Births according to child weight,7.53,0.3099999999999996
+91,Essonne,7,6,2022,Less than 1.5kg,1.33,Births according to child weight,1.13,0.20000000000000018
+91,Essonne,7,6,2022,Under 20 years old,0.96,Births according to mother age,1.82,-0.8600000000000001
+91,Essonne,7,6,2022,20-24 years old,9.89,Births according to mother age,11.23,-1.3399999999999999
+91,Essonne,7,6,2022,25-29 years old,26.97,Births according to mother age,27.68,-0.7100000000000009
+91,Essonne,7,6,2022,30-34 years old,35.77,Births according to mother age,34.59,1.1799999999999997
+91,Essonne,7,6,2022,35-39 years old,20.57,Births according to mother age,19.36,1.2100000000000009
+91,Essonne,7,6,2022,40 years old and above,5.84,Births according to mother age,5.32,0.5199999999999996
+39,Jura,7,9,2022,Before 37 weeks,6.25,Premature births by week of amenorrhea,6.81,-0.5599999999999996
+39,Jura,7,9,2022,Before 32 weeks,0.37,Premature births by week of amenorrhea,1.11,-0.7400000000000001
+39,Jura,7,9,2022,Before 28 weeks,0.09,Premature births by week of amenorrhea,0.4,-0.31000000000000005
+39,Jura,7,9,2022,Less than 2.5kg,6.53,Births according to child weight,7.53,-1
+39,Jura,7,9,2022,Less than 1.5kg,0.56,Births according to child weight,1.13,-0.5699999999999998
+39,Jura,7,9,2022,Under 20 years old,1.21,Births according to mother age,1.82,-0.6100000000000001
+39,Jura,7,9,2022,20-24 years old,12.61,Births according to mother age,11.23,1.379999999999999
+39,Jura,7,9,2022,25-29 years old,30.81,Births according to mother age,27.68,3.129999999999999
+39,Jura,7,9,2022,30-34 years old,35.43,Births according to mother age,34.59,0.8399999999999963
+39,Jura,7,9,2022,35-39 years old,15.64,Births according to mother age,19.36,-3.719999999999999
+39,Jura,7,9,2022,40 years old and above,4.3,Births according to mother age,5.32,-1.0200000000000005
+25,Doubs,7,10,2022,Before 37 weeks,5.94,Premature births by week of amenorrhea,6.81,-0.8699999999999992
+25,Doubs,7,10,2022,Before 32 weeks,1.07,Premature births by week of amenorrhea,1.11,-0.040000000000000036
+25,Doubs,7,10,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+25,Doubs,7,10,2022,Less than 2.5kg,7.09,Births according to child weight,7.53,-0.4400000000000004
+25,Doubs,7,10,2022,Less than 1.5kg,1.11,Births according to child weight,1.13,-0.019999999999999796
+25,Doubs,7,10,2022,Under 20 years old,1.33,Births according to mother age,1.82,-0.49
+25,Doubs,7,10,2022,20-24 years old,12.12,Births according to mother age,11.23,0.8899999999999988
+25,Doubs,7,10,2022,25-29 years old,31.81,Births according to mother age,27.68,4.129999999999999
+25,Doubs,7,10,2022,30-34 years old,33.3,Births according to mother age,34.59,-1.2900000000000063
+25,Doubs,7,10,2022,35-39 years old,16.74,Births according to mother age,19.36,-2.620000000000001
+25,Doubs,7,10,2022,40 years old and above,4.71,Births according to mother age,5.32,-0.6100000000000003
+49,Maine-et-Loire,7,4,2022,Before 37 weeks,6.68,Premature births by week of amenorrhea,6.81,-0.1299999999999999
+49,Maine-et-Loire,7,4,2022,Before 32 weeks,0.86,Premature births by week of amenorrhea,1.11,-0.2500000000000001
+49,Maine-et-Loire,7,4,2022,Before 28 weeks,0.3,Premature births by week of amenorrhea,0.4,-0.10000000000000003
+49,Maine-et-Loire,7,4,2022,Less than 2.5kg,7.27,Births according to child weight,7.53,-0.2600000000000007
+49,Maine-et-Loire,7,4,2022,Less than 1.5kg,0.97,Births according to child weight,1.13,-0.15999999999999992
+49,Maine-et-Loire,7,4,2022,Under 20 years old,1.57,Births according to mother age,1.82,-0.25
+49,Maine-et-Loire,7,4,2022,20-24 years old,12.65,Births according to mother age,11.23,1.42
+49,Maine-et-Loire,7,4,2022,25-29 years old,30.52,Births according to mother age,27.68,2.84
+49,Maine-et-Loire,7,4,2022,30-34 years old,34.77,Births according to mother age,34.59,0.17999999999999972
+49,Maine-et-Loire,7,4,2022,35-39 years old,16.56,Births according to mother age,19.36,-2.8000000000000007
+49,Maine-et-Loire,7,4,2022,40 years old and above,3.93,Births according to mother age,5.32,-1.3900000000000001
+37,Indre-et-Loire,7,5,2022,Before 37 weeks,6.27,Premature births by week of amenorrhea,6.81,-0.54
+37,Indre-et-Loire,7,5,2022,Before 32 weeks,1.12,Premature births by week of amenorrhea,1.11,0.010000000000000009
+37,Indre-et-Loire,7,5,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+37,Indre-et-Loire,7,5,2022,Less than 2.5kg,7.32,Births according to child weight,7.53,-0.20999999999999996
+37,Indre-et-Loire,7,5,2022,Less than 1.5kg,1.08,Births according to child weight,1.13,-0.04999999999999982
+37,Indre-et-Loire,7,5,2022,Under 20 years old,1.5,Births according to mother age,1.82,-0.32000000000000006
+37,Indre-et-Loire,7,5,2022,20-24 years old,10.76,Births according to mother age,11.23,-0.47000000000000064
+37,Indre-et-Loire,7,5,2022,25-29 years old,28.59,Births according to mother age,27.68,0.9100000000000001
+37,Indre-et-Loire,7,5,2022,30-34 years old,35.33,Births according to mother age,34.59,0.7399999999999949
+37,Indre-et-Loire,7,5,2022,35-39 years old,18.85,Births according to mother age,19.36,-0.509999999999998
+37,Indre-et-Loire,7,5,2022,40 years old and above,4.98,Births according to mother age,5.32,-0.33999999999999986
+45,Loiret,7,7,2022,Before 37 weeks,7.18,Premature births by week of amenorrhea,6.81,0.3700000000000001
+45,Loiret,7,7,2022,Before 32 weeks,1.13,Premature births by week of amenorrhea,1.11,0.019999999999999796
+45,Loiret,7,7,2022,Before 28 weeks,0.25,Premature births by week of amenorrhea,0.4,-0.15000000000000002
+45,Loiret,7,7,2022,Less than 2.5kg,7.36,Births according to child weight,7.53,-0.16999999999999993
+45,Loiret,7,7,2022,Less than 1.5kg,1.09,Births according to child weight,1.13,-0.039999999999999813
+45,Loiret,7,7,2022,Under 20 years old,1.49,Births according to mother age,1.82,-0.33000000000000007
+45,Loiret,7,7,2022,20-24 years old,12.01,Births according to mother age,11.23,0.7799999999999994
+45,Loiret,7,7,2022,25-29 years old,30.46,Births according to mother age,27.68,2.780000000000001
+45,Loiret,7,7,2022,30-34 years old,33.38,Births according to mother age,34.59,-1.2100000000000009
+45,Loiret,7,7,2022,35-39 years old,17.64,Births according to mother age,19.36,-1.7199999999999989
+45,Loiret,7,7,2022,40 years old and above,5.03,Births according to mother age,5.32,-0.29000000000000004
+973,Guyane,7,13,2022,Before 37 weeks,12.02,Premature births by week of amenorrhea,6.81,5.21
+973,Guyane,7,13,2022,Before 32 weeks,2.31,Premature births by week of amenorrhea,1.11,1.2
+973,Guyane,7,13,2022,Before 28 weeks,0.86,Premature births by week of amenorrhea,0.4,0.45999999999999996
+973,Guyane,7,13,2022,Less than 2.5kg,12.49,Births according to child weight,7.53,4.96
+973,Guyane,7,13,2022,Less than 1.5kg,2.6,Births according to child weight,1.13,1.4700000000000002
+973,Guyane,7,13,2022,Under 20 years old,11.63,Births according to mother age,1.82,9.81
+973,Guyane,7,13,2022,20-24 years old,22.34,Births according to mother age,11.23,11.11
+973,Guyane,7,13,2022,25-29 years old,23.53,Births according to mother age,27.68,-4.149999999999999
+973,Guyane,7,13,2022,30-34 years old,21.34,Births according to mother age,34.59,-13.250000000000004
+973,Guyane,7,13,2022,35-39 years old,15.31,Births according to mother age,19.36,-4.049999999999999
+973,Guyane,7,13,2022,40 years old and above,5.85,Births according to mother age,5.32,0.5299999999999994
+41,Loir-et-Cher,8,6,2022,Before 37 weeks,7.3,Premature births by week of amenorrhea,6.81,0.4900000000000002
+41,Loir-et-Cher,8,6,2022,Before 32 weeks,1.14,Premature births by week of amenorrhea,1.11,0.029999999999999805
+41,Loir-et-Cher,8,6,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+41,Loir-et-Cher,8,6,2022,Less than 2.5kg,8.52,Births according to child weight,7.53,0.9899999999999993
+41,Loir-et-Cher,8,6,2022,Less than 1.5kg,1.17,Births according to child weight,1.13,0.040000000000000036
+41,Loir-et-Cher,8,6,2022,Under 20 years old,2.2,Births according to mother age,1.82,0.3800000000000001
+41,Loir-et-Cher,8,6,2022,20-24 years old,14.45,Births according to mother age,11.23,3.219999999999999
+41,Loir-et-Cher,8,6,2022,25-29 years old,30.6,Births according to mother age,27.68,2.9200000000000017
+41,Loir-et-Cher,8,6,2022,30-34 years old,32.1,Births according to mother age,34.59,-2.490000000000002
+41,Loir-et-Cher,8,6,2022,35-39 years old,16.36,Births according to mother age,19.36,-3
+41,Loir-et-Cher,8,6,2022,40 years old and above,4.29,Births according to mother age,5.32,-1.0300000000000002
+71,Saône-et-Loire,8,9,2022,Before 37 weeks,7.05,Premature births by week of amenorrhea,6.81,0.2400000000000002
+71,Saône-et-Loire,8,9,2022,Before 32 weeks,1.14,Premature births by week of amenorrhea,1.11,0.029999999999999805
+71,Saône-et-Loire,8,9,2022,Before 28 weeks,0.39,Premature births by week of amenorrhea,0.4,-0.010000000000000009
+71,Saône-et-Loire,8,9,2022,Less than 2.5kg,8.14,Births according to child weight,7.53,0.6100000000000003
+71,Saône-et-Loire,8,9,2022,Less than 1.5kg,1.05,Births according to child weight,1.13,-0.07999999999999985
+71,Saône-et-Loire,8,9,2022,Under 20 years old,2.27,Births according to mother age,1.82,0.44999999999999996
+71,Saône-et-Loire,8,9,2022,20-24 years old,12.74,Births according to mother age,11.23,1.5099999999999998
+71,Saône-et-Loire,8,9,2022,25-29 years old,32.12,Births according to mother age,27.68,4.439999999999998
+71,Saône-et-Loire,8,9,2022,30-34 years old,33.2,Births according to mother age,34.59,-1.3900000000000006
+71,Saône-et-Loire,8,9,2022,35-39 years old,15.73,Births according to mother age,19.36,-3.629999999999999
+71,Saône-et-Loire,8,9,2022,40 years old and above,3.94,Births according to mother age,5.32,-1.3800000000000003
+03,Allier,8,8,2022,Before 37 weeks,7.67,Premature births by week of amenorrhea,6.81,0.8600000000000003
+03,Allier,8,8,2022,Before 32 weeks,1.34,Premature births by week of amenorrhea,1.11,0.22999999999999998
+03,Allier,8,8,2022,Before 28 weeks,0.31,Premature births by week of amenorrhea,0.4,-0.09000000000000002
+03,Allier,8,8,2022,Less than 2.5kg,9.52,Births according to child weight,7.53,1.9899999999999993
+03,Allier,8,8,2022,Less than 1.5kg,1.07,Births according to child weight,1.13,-0.05999999999999983
+03,Allier,8,8,2022,Under 20 years old,3.11,Births according to mother age,1.82,1.2899999999999998
+03,Allier,8,8,2022,20-24 years old,15.07,Births according to mother age,11.23,3.84
+03,Allier,8,8,2022,25-29 years old,32.91,Births according to mother age,27.68,5.229999999999997
+03,Allier,8,8,2022,30-34 years old,29.95,Births according to mother age,34.59,-4.640000000000004
+03,Allier,8,8,2022,35-39 years old,15.22,Births according to mother age,19.36,-4.139999999999999
+03,Allier,8,8,2022,40 years old and above,3.73,Births according to mother age,5.32,-1.5900000000000003
+85,Vendée,8,3,2022,Before 37 weeks,6.6,Premature births by week of amenorrhea,6.81,-0.20999999999999996
+85,Vendée,8,3,2022,Before 32 weeks,0.83,Premature births by week of amenorrhea,1.11,-0.28000000000000014
+85,Vendée,8,3,2022,Before 28 weeks,0.24,Premature births by week of amenorrhea,0.4,-0.16000000000000003
+85,Vendée,8,3,2022,Less than 2.5kg,6.46,Births according to child weight,7.53,-1.0700000000000003
+85,Vendée,8,3,2022,Less than 1.5kg,0.85,Births according to child weight,1.13,-0.2799999999999999
+85,Vendée,8,3,2022,Under 20 years old,1.02,Births according to mother age,1.82,-0.8
+85,Vendée,8,3,2022,20-24 years old,11.37,Births according to mother age,11.23,0.1399999999999988
+85,Vendée,8,3,2022,25-29 years old,32.95,Births according to mother age,27.68,5.270000000000003
+85,Vendée,8,3,2022,30-34 years old,34.58,Births according to mother age,34.59,-0.010000000000005116
+85,Vendée,8,3,2022,35-39 years old,16.23,Births according to mother age,19.36,-3.129999999999999
+85,Vendée,8,3,2022,40 years old and above,3.84,Births according to mother age,5.32,-1.4800000000000004
+86,Vienne,8,5,2022,Before 37 weeks,7.33,Premature births by week of amenorrhea,6.81,0.5200000000000005
+86,Vienne,8,5,2022,Before 32 weeks,1.06,Premature births by week of amenorrhea,1.11,-0.050000000000000044
+86,Vienne,8,5,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+86,Vienne,8,5,2022,Less than 2.5kg,7.86,Births according to child weight,7.53,0.33000000000000007
+86,Vienne,8,5,2022,Less than 1.5kg,1.23,Births according to child weight,1.13,0.10000000000000009
+86,Vienne,8,5,2022,Under 20 years old,2.24,Births according to mother age,1.82,0.42000000000000015
+86,Vienne,8,5,2022,20-24 years old,14.64,Births according to mother age,11.23,3.41
+86,Vienne,8,5,2022,25-29 years old,30.58,Births according to mother age,27.68,2.8999999999999986
+86,Vienne,8,5,2022,30-34 years old,31.81,Births according to mother age,34.59,-2.7800000000000047
+86,Vienne,8,5,2022,35-39 years old,16.12,Births according to mother age,19.36,-3.2399999999999984
+86,Vienne,8,5,2022,40 years old and above,4.61,Births according to mother age,5.32,-0.71
+79,Deux-Sèvres,8,4,2022,Before 37 weeks,6.62,Premature births by week of amenorrhea,6.81,-0.1899999999999995
+79,Deux-Sèvres,8,4,2022,Before 32 weeks,0.74,Premature births by week of amenorrhea,1.11,-0.3700000000000001
+79,Deux-Sèvres,8,4,2022,Before 28 weeks,0.19,Premature births by week of amenorrhea,0.4,-0.21000000000000002
+79,Deux-Sèvres,8,4,2022,Less than 2.5kg,7.33,Births according to child weight,7.53,-0.20000000000000018
+79,Deux-Sèvres,8,4,2022,Less than 1.5kg,0.86,Births according to child weight,1.13,-0.2699999999999999
+79,Deux-Sèvres,8,4,2022,Under 20 years old,2.32,Births according to mother age,1.82,0.4999999999999998
+79,Deux-Sèvres,8,4,2022,20-24 years old,13.89,Births according to mother age,11.23,2.66
+79,Deux-Sèvres,8,4,2022,25-29 years old,30.62,Births according to mother age,27.68,2.9400000000000013
+79,Deux-Sèvres,8,4,2022,30-34 years old,32.58,Births according to mother age,34.59,-2.010000000000005
+79,Deux-Sèvres,8,4,2022,35-39 years old,17.14,Births according to mother age,19.36,-2.219999999999999
+79,Deux-Sèvres,8,4,2022,40 years old and above,3.45,Births according to mother age,5.32,-1.87
+18,Cher,8,7,2022,Before 37 weeks,7.09,Premature births by week of amenorrhea,6.81,0.28000000000000025
+18,Cher,8,7,2022,Before 32 weeks,1.24,Premature births by week of amenorrhea,1.11,0.1299999999999999
+18,Cher,8,7,2022,Before 28 weeks,0.3,Premature births by week of amenorrhea,0.4,-0.10000000000000003
+18,Cher,8,7,2022,Less than 2.5kg,7.57,Births according to child weight,7.53,0.040000000000000036
+18,Cher,8,7,2022,Less than 1.5kg,1.2,Births according to child weight,1.13,0.07000000000000006
+18,Cher,8,7,2022,Under 20 years old,2.65,Births according to mother age,1.82,0.8299999999999998
+18,Cher,8,7,2022,20-24 years old,14.4,Births according to mother age,11.23,3.17
+18,Cher,8,7,2022,25-29 years old,30.25,Births according to mother age,27.68,2.5700000000000003
+18,Cher,8,7,2022,30-34 years old,32.52,Births according to mother age,34.59,-2.0700000000000003
+18,Cher,8,7,2022,35-39 years old,16.19,Births according to mother age,19.36,-3.169999999999998
+18,Cher,8,7,2022,40 years old and above,3.98,Births according to mother age,5.32,-1.3400000000000003
+974,La Réunion,8,13,2022,Before 37 weeks,9.19,Premature births by week of amenorrhea,6.81,2.38
+974,La Réunion,8,13,2022,Before 32 weeks,1.6,Premature births by week of amenorrhea,1.11,0.49
+974,La Réunion,8,13,2022,Before 28 weeks,0.52,Premature births by week of amenorrhea,0.4,0.12
+974,La Réunion,8,13,2022,Less than 2.5kg,12.07,Births according to child weight,7.53,4.54
+974,La Réunion,8,13,2022,Less than 1.5kg,1.66,Births according to child weight,1.13,0.53
+974,La Réunion,8,13,2022,Under 20 years old,5.28,Births according to mother age,1.82,3.46
+974,La Réunion,8,13,2022,20-24 years old,19.22,Births according to mother age,11.23,7.989999999999998
+974,La Réunion,8,13,2022,25-29 years old,26.71,Births according to mother age,27.68,-0.9699999999999989
+974,La Réunion,8,13,2022,30-34 years old,26.51,Births according to mother age,34.59,-8.080000000000002
+974,La Réunion,8,13,2022,35-39 years old,16.99,Births according to mother age,19.36,-2.370000000000001
+974,La Réunion,8,13,2022,40 years old and above,5.29,Births according to mother age,5.32,-0.03000000000000025
+17,Charente Maritime,9,3,2022,Before 37 weeks,6.01,Premature births by week of amenorrhea,6.81,-0.7999999999999998
+17,Charente Maritime,9,3,2022,Before 32 weeks,1.2,Premature births by week of amenorrhea,1.11,0.08999999999999986
+17,Charente Maritime,9,3,2022,Before 28 weeks,0.39,Premature births by week of amenorrhea,0.4,-0.010000000000000009
+17,Charente Maritime,9,3,2022,Less than 2.5kg,7.54,Births according to child weight,7.53,0.009999999999999787
+17,Charente Maritime,9,3,2022,Less than 1.5kg,1.09,Births according to child weight,1.13,-0.039999999999999813
+17,Charente Maritime,9,3,2022,Under 20 years old,1.49,Births according to mother age,1.82,-0.33000000000000007
+17,Charente Maritime,9,3,2022,20-24 years old,11.93,Births according to mother age,11.23,0.6999999999999993
+17,Charente Maritime,9,3,2022,25-29 years old,28.71,Births according to mother age,27.68,1.0300000000000011
+17,Charente Maritime,9,3,2022,30-34 years old,34.7,Births according to mother age,34.59,0.10999999999999943
+17,Charente Maritime,9,3,2022,35-39 years old,18.6,Births according to mother age,19.36,-0.759999999999998
+17,Charente Maritime,9,3,2022,40 years old and above,4.57,Births according to mother age,5.32,-0.75
+42,Loire,9,8,2022,Before 37 weeks,6.88,Premature births by week of amenorrhea,6.81,0.07000000000000028
+42,Loire,9,8,2022,Before 32 weeks,1.19,Premature births by week of amenorrhea,1.11,0.07999999999999985
+42,Loire,9,8,2022,Before 28 weeks,0.49,Premature births by week of amenorrhea,0.4,0.08999999999999997
+42,Loire,9,8,2022,Less than 2.5kg,7.62,Births according to child weight,7.53,0.08999999999999986
+42,Loire,9,8,2022,Less than 1.5kg,1,Births according to child weight,1.13,-0.1299999999999999
+42,Loire,9,8,2022,Under 20 years old,1.52,Births according to mother age,1.82,-0.30000000000000004
+42,Loire,9,8,2022,20-24 years old,12.06,Births according to mother age,11.23,0.8300000000000001
+42,Loire,9,8,2022,25-29 years old,31.81,Births according to mother age,27.68,4.129999999999999
+42,Loire,9,8,2022,30-34 years old,34.06,Births according to mother age,34.59,-0.5300000000000011
+42,Loire,9,8,2022,35-39 years old,16.31,Births according to mother age,19.36,-3.0500000000000007
+42,Loire,9,8,2022,40 years old and above,4.25,Births according to mother age,5.32,-1.0700000000000003
+69,Rhône,9,9,2022,Before 37 weeks,6.7,Premature births by week of amenorrhea,6.81,-0.10999999999999943
+69,Rhône,9,9,2022,Before 32 weeks,1.09,Premature births by week of amenorrhea,1.11,-0.020000000000000018
+69,Rhône,9,9,2022,Before 28 weeks,0.37,Premature births by week of amenorrhea,0.4,-0.030000000000000027
+69,Rhône,9,9,2022,Less than 2.5kg,6.98,Births according to child weight,7.53,-0.5499999999999998
+69,Rhône,9,9,2022,Less than 1.5kg,1.1,Births according to child weight,1.13,-0.029999999999999805
+69,Rhône,9,9,2022,Under 20 years old,0.9,Births according to mother age,1.82,-0.92
+69,Rhône,9,9,2022,20-24 years old,7.68,Births according to mother age,11.23,-3.5500000000000007
+69,Rhône,9,9,2022,25-29 years old,26.13,Births according to mother age,27.68,-1.5500000000000007
+69,Rhône,9,9,2022,30-34 years old,37.98,Births according to mother age,34.59,3.3899999999999935
+69,Rhône,9,9,2022,35-39 years old,21.69,Births according to mother age,19.36,2.330000000000002
+69,Rhône,9,9,2022,40 years old and above,5.61,Births according to mother age,5.32,0.29000000000000004
+01,Ain,9,10,2022,Before 37 weeks,6.09,Premature births by week of amenorrhea,6.81,-0.7199999999999998
+01,Ain,9,10,2022,Before 32 weeks,1.02,Premature births by week of amenorrhea,1.11,-0.09000000000000008
+01,Ain,9,10,2022,Before 28 weeks,0.44,Premature births by week of amenorrhea,0.4,0.03999999999999998
+01,Ain,9,10,2022,Less than 2.5kg,6.52,Births according to child weight,7.53,-1.0100000000000007
+01,Ain,9,10,2022,Less than 1.5kg,0.84,Births according to child weight,1.13,-0.2899999999999999
+01,Ain,9,10,2022,Under 20 years old,1.22,Births according to mother age,1.82,-0.6000000000000001
+01,Ain,9,10,2022,20-24 years old,8.9,Births according to mother age,11.23,-2.33
+01,Ain,9,10,2022,25-29 years old,29.76,Births according to mother age,27.68,2.080000000000002
+01,Ain,9,10,2022,30-34 years old,37.11,Births according to mother age,34.59,2.519999999999996
+01,Ain,9,10,2022,35-39 years old,18.93,Births according to mother age,19.36,-0.4299999999999997
+01,Ain,9,10,2022,40 years old and above,4.08,Births according to mother age,5.32,-1.2400000000000002
+16,Charente,9,4,2022,Before 37 weeks,7.29,Premature births by week of amenorrhea,6.81,0.4800000000000004
+16,Charente,9,4,2022,Before 32 weeks,0.83,Premature births by week of amenorrhea,1.11,-0.28000000000000014
+16,Charente,9,4,2022,Before 28 weeks,0.3,Premature births by week of amenorrhea,0.4,-0.10000000000000003
+16,Charente,9,4,2022,Less than 2.5kg,8.62,Births according to child weight,7.53,1.089999999999999
+16,Charente,9,4,2022,Less than 1.5kg,0.93,Births according to child weight,1.13,-0.19999999999999984
+16,Charente,9,4,2022,Under 20 years old,2.27,Births according to mother age,1.82,0.44999999999999996
+16,Charente,9,4,2022,20-24 years old,15.63,Births according to mother age,11.23,4.4
+16,Charente,9,4,2022,25-29 years old,30.17,Births according to mother age,27.68,2.490000000000002
+16,Charente,9,4,2022,30-34 years old,30.8,Births according to mother age,34.59,-3.7900000000000027
+16,Charente,9,4,2022,35-39 years old,17.2,Births according to mother age,19.36,-2.16
+16,Charente,9,4,2022,40 years old and above,3.93,Births according to mother age,5.32,-1.3900000000000001
+36,Indre,9,6,2022,Before 37 weeks,6.65,Premature births by week of amenorrhea,6.81,-0.15999999999999925
+36,Indre,9,6,2022,Before 32 weeks,0.84,Premature births by week of amenorrhea,1.11,-0.27000000000000013
+36,Indre,9,6,2022,Before 28 weeks,0.18,Premature births by week of amenorrhea,0.4,-0.22000000000000003
+36,Indre,9,6,2022,Less than 2.5kg,7.69,Births according to child weight,7.53,0.16000000000000014
+36,Indre,9,6,2022,Less than 1.5kg,0.78,Births according to child weight,1.13,-0.34999999999999987
+36,Indre,9,6,2022,Under 20 years old,2.28,Births according to mother age,1.82,0.45999999999999974
+36,Indre,9,6,2022,20-24 years old,16.95,Births according to mother age,11.23,5.719999999999999
+36,Indre,9,6,2022,25-29 years old,31.38,Births according to mother age,27.68,3.6999999999999993
+36,Indre,9,6,2022,30-34 years old,29.94,Births according to mother age,34.59,-4.650000000000002
+36,Indre,9,6,2022,35-39 years old,15.15,Births according to mother age,19.36,-4.209999999999999
+36,Indre,9,6,2022,40 years old and above,4.31,Births according to mother age,5.32,-1.0100000000000007
+87,Haute-Vienne,9,5,2022,Before 37 weeks,5.87,Premature births by week of amenorrhea,6.81,-0.9399999999999995
+87,Haute-Vienne,9,5,2022,Before 32 weeks,1.33,Premature births by week of amenorrhea,1.11,0.21999999999999997
+87,Haute-Vienne,9,5,2022,Before 28 weeks,0.57,Premature births by week of amenorrhea,0.4,0.16999999999999993
+87,Haute-Vienne,9,5,2022,Less than 2.5kg,7.69,Births according to child weight,7.53,0.16000000000000014
+87,Haute-Vienne,9,5,2022,Less than 1.5kg,1.21,Births according to child weight,1.13,0.08000000000000007
+87,Haute-Vienne,9,5,2022,Under 20 years old,1.98,Births according to mother age,1.82,0.15999999999999992
+87,Haute-Vienne,9,5,2022,20-24 years old,13.55,Births according to mother age,11.23,2.3200000000000003
+87,Haute-Vienne,9,5,2022,25-29 years old,29.85,Births according to mother age,27.68,2.1700000000000017
+87,Haute-Vienne,9,5,2022,30-34 years old,31.43,Births according to mother age,34.59,-3.1600000000000037
+87,Haute-Vienne,9,5,2022,35-39 years old,17.85,Births according to mother age,19.36,-1.509999999999998
+87,Haute-Vienne,9,5,2022,40 years old and above,5.33,Births according to mother age,5.32,0.009999999999999787
+74,Haute-Savoie,9,11,2022,Before 37 weeks,5.5,Premature births by week of amenorrhea,6.81,-1.3099999999999996
+74,Haute-Savoie,9,11,2022,Before 32 weeks,0.92,Premature births by week of amenorrhea,1.11,-0.19000000000000006
+74,Haute-Savoie,9,11,2022,Before 28 weeks,0.31,Premature births by week of amenorrhea,0.4,-0.09000000000000002
+74,Haute-Savoie,9,11,2022,Less than 2.5kg,6.07,Births according to child weight,7.53,-1.46
+74,Haute-Savoie,9,11,2022,Less than 1.5kg,0.88,Births according to child weight,1.13,-0.2499999999999999
+74,Haute-Savoie,9,11,2022,Under 20 years old,0.73,Births according to mother age,1.82,-1.09
+74,Haute-Savoie,9,11,2022,20-24 years old,7.72,Births according to mother age,11.23,-3.5100000000000007
+74,Haute-Savoie,9,11,2022,25-29 years old,26.79,Births according to mother age,27.68,-0.8900000000000006
+74,Haute-Savoie,9,11,2022,30-34 years old,38.92,Births according to mother age,34.59,4.329999999999998
+74,Haute-Savoie,9,11,2022,35-39 years old,20.87,Births according to mother age,19.36,1.5100000000000016
+74,Haute-Savoie,9,11,2022,40 years old and above,4.96,Births according to mother age,5.32,-0.3600000000000003
+23,Creuse,9,7,2022,Before 37 weeks,8.28,Premature births by week of amenorrhea,6.81,1.4699999999999998
+23,Creuse,9,7,2022,Before 32 weeks,0.53,Premature births by week of amenorrhea,1.11,-0.5800000000000001
+23,Creuse,9,7,2022,Before 28 weeks,0.27,Premature births by week of amenorrhea,0.4,-0.13
+23,Creuse,9,7,2022,Less than 2.5kg,8.91,Births according to child weight,7.53,1.38
+23,Creuse,9,7,2022,Less than 1.5kg,1.73,Births according to child weight,1.13,0.6000000000000001
+23,Creuse,9,7,2022,Under 20 years old,2.28,Births according to mother age,1.82,0.45999999999999974
+23,Creuse,9,7,2022,20-24 years old,16.09,Births according to mother age,11.23,4.859999999999999
+23,Creuse,9,7,2022,25-29 years old,31.23,Births according to mother age,27.68,3.5500000000000007
+23,Creuse,9,7,2022,30-34 years old,30.43,Births according to mother age,34.59,-4.160000000000004
+23,Creuse,9,7,2022,35-39 years old,15.95,Births according to mother age,19.36,-3.41
+23,Creuse,9,7,2022,40 years old and above,4.02,Births according to mother age,5.32,-1.3000000000000007
+43,Haute-Loire,10,8,2022,Before 37 weeks,7.51,Premature births by week of amenorrhea,6.81,0.7000000000000002
+43,Haute-Loire,10,8,2022,Before 32 weeks,1.38,Premature births by week of amenorrhea,1.11,0.2699999999999998
+43,Haute-Loire,10,8,2022,Before 28 weeks,0.33,Premature births by week of amenorrhea,0.4,-0.07
+43,Haute-Loire,10,8,2022,Less than 2.5kg,9.52,Births according to child weight,7.53,1.9899999999999993
+43,Haute-Loire,10,8,2022,Less than 1.5kg,1.49,Births according to child weight,1.13,0.3600000000000001
+43,Haute-Loire,10,8,2022,Under 20 years old,1.07,Births according to mother age,1.82,-0.75
+43,Haute-Loire,10,8,2022,20-24 years old,10.1,Births according to mother age,11.23,-1.1300000000000008
+43,Haute-Loire,10,8,2022,25-29 years old,34.04,Births according to mother age,27.68,6.359999999999999
+43,Haute-Loire,10,8,2022,30-34 years old,35.56,Births according to mother age,34.59,0.9699999999999989
+43,Haute-Loire,10,8,2022,35-39 years old,15.82,Births according to mother age,19.36,-3.539999999999999
+43,Haute-Loire,10,8,2022,40 years old and above,3.42,Births according to mother age,5.32,-1.9000000000000004
+33,Gironde,10,4,2022,Before 37 weeks,6.34,Premature births by week of amenorrhea,6.81,-0.46999999999999975
+33,Gironde,10,4,2022,Before 32 weeks,0.84,Premature births by week of amenorrhea,1.11,-0.27000000000000013
+33,Gironde,10,4,2022,Before 28 weeks,0.28,Premature births by week of amenorrhea,0.4,-0.12
+33,Gironde,10,4,2022,Less than 2.5kg,6.77,Births according to child weight,7.53,-0.7600000000000007
+33,Gironde,10,4,2022,Less than 1.5kg,0.9,Births according to child weight,1.13,-0.22999999999999987
+33,Gironde,10,4,2022,Under 20 years old,1.56,Births according to mother age,1.82,-0.26
+33,Gironde,10,4,2022,20-24 years old,9.65,Births according to mother age,11.23,-1.58
+33,Gironde,10,4,2022,25-29 years old,25.05,Births according to mother age,27.68,-2.629999999999999
+33,Gironde,10,4,2022,30-34 years old,37.17,Births according to mother age,34.59,2.5799999999999983
+33,Gironde,10,4,2022,35-39 years old,21.36,Births according to mother age,19.36,2
+33,Gironde,10,4,2022,40 years old and above,5.2,Births according to mother age,5.32,-0.1200000000000001
+19,Corrèze,10,6,2022,Before 37 weeks,5.25,Premature births by week of amenorrhea,6.81,-1.5599999999999996
+19,Corrèze,10,6,2022,Before 32 weeks,0.48,Premature births by week of amenorrhea,1.11,-0.6300000000000001
+19,Corrèze,10,6,2022,Before 28 weeks,0.16,Premature births by week of amenorrhea,0.4,-0.24000000000000002
+19,Corrèze,10,6,2022,Less than 2.5kg,7.01,Births according to child weight,7.53,-0.5200000000000005
+19,Corrèze,10,6,2022,Less than 1.5kg,0.58,Births according to child weight,1.13,-0.5499999999999999
+19,Corrèze,10,6,2022,Under 20 years old,1.39,Births according to mother age,1.82,-0.43000000000000016
+19,Corrèze,10,6,2022,20-24 years old,12.83,Births according to mother age,11.23,1.5999999999999996
+19,Corrèze,10,6,2022,25-29 years old,29.3,Births according to mother age,27.68,1.620000000000001
+19,Corrèze,10,6,2022,30-34 years old,34.06,Births according to mother age,34.59,-0.5300000000000011
+19,Corrèze,10,6,2022,35-39 years old,18.02,Births according to mother age,19.36,-1.3399999999999999
+19,Corrèze,10,6,2022,40 years old and above,4.39,Births according to mother age,5.32,-0.9300000000000006
+24,Dordogne,10,5,2022,Before 37 weeks,6.23,Premature births by week of amenorrhea,6.81,-0.5799999999999992
+24,Dordogne,10,5,2022,Before 32 weeks,0.8,Premature births by week of amenorrhea,1.11,-0.31000000000000005
+24,Dordogne,10,5,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+24,Dordogne,10,5,2022,Less than 2.5kg,6.89,Births according to child weight,7.53,-0.6400000000000006
+24,Dordogne,10,5,2022,Less than 1.5kg,0.89,Births according to child weight,1.13,-0.23999999999999988
+24,Dordogne,10,5,2022,Under 20 years old,2,Births according to mother age,1.82,0.17999999999999994
+24,Dordogne,10,5,2022,20-24 years old,13.49,Births according to mother age,11.23,2.26
+24,Dordogne,10,5,2022,25-29 years old,28.19,Births according to mother age,27.68,0.5100000000000016
+24,Dordogne,10,5,2022,30-34 years old,34.24,Births according to mother age,34.59,-0.3500000000000014
+24,Dordogne,10,5,2022,35-39 years old,17.5,Births according to mother age,19.36,-1.8599999999999994
+24,Dordogne,10,5,2022,40 years old and above,4.58,Births according to mother age,5.32,-0.7400000000000002
+73,Savoie,10,11,2022,Before 37 weeks,5.04,Premature births by week of amenorrhea,6.81,-1.7699999999999996
+73,Savoie,10,11,2022,Before 32 weeks,0.64,Premature births by week of amenorrhea,1.11,-0.4700000000000001
+73,Savoie,10,11,2022,Before 28 weeks,0.24,Premature births by week of amenorrhea,0.4,-0.16000000000000003
+73,Savoie,10,11,2022,Less than 2.5kg,5.55,Births according to child weight,7.53,-1.9800000000000004
+73,Savoie,10,11,2022,Less than 1.5kg,0.73,Births according to child weight,1.13,-0.3999999999999999
+73,Savoie,10,11,2022,Under 20 years old,1.14,Births according to mother age,1.82,-0.6800000000000002
+73,Savoie,10,11,2022,20-24 years old,8.89,Births according to mother age,11.23,-2.34
+73,Savoie,10,11,2022,25-29 years old,28.04,Births according to mother age,27.68,0.35999999999999943
+73,Savoie,10,11,2022,30-34 years old,36.59,Births according to mother age,34.59,2
+73,Savoie,10,11,2022,35-39 years old,20.24,Births according to mother age,19.36,0.879999999999999
+73,Savoie,10,11,2022,40 years old and above,5.11,Births according to mother age,5.32,-0.20999999999999996
+38,Isère,10,10,2022,Before 37 weeks,5.94,Premature births by week of amenorrhea,6.81,-0.8699999999999992
+38,Isère,10,10,2022,Before 32 weeks,1.03,Premature births by week of amenorrhea,1.11,-0.08000000000000007
+38,Isère,10,10,2022,Before 28 weeks,0.33,Premature births by week of amenorrhea,0.4,-0.07
+38,Isère,10,10,2022,Less than 2.5kg,6.39,Births according to child weight,7.53,-1.1400000000000006
+38,Isère,10,10,2022,Less than 1.5kg,1.04,Births according to child weight,1.13,-0.08999999999999986
+38,Isère,10,10,2022,Under 20 years old,1.18,Births according to mother age,1.82,-0.6400000000000001
+38,Isère,10,10,2022,20-24 years old,9.99,Births according to mother age,11.23,-1.2400000000000002
+38,Isère,10,10,2022,25-29 years old,28.98,Births according to mother age,27.68,1.3000000000000007
+38,Isère,10,10,2022,30-34 years old,35.97,Births according to mother age,34.59,1.3799999999999955
+38,Isère,10,10,2022,35-39 years old,19.25,Births according to mother age,19.36,-0.10999999999999943
+38,Isère,10,10,2022,40 years old and above,4.63,Births according to mother age,5.32,-0.6900000000000004
+07,Ardèche,10,9,2022,Before 37 weeks,6.65,Premature births by week of amenorrhea,6.81,-0.15999999999999925
+07,Ardèche,10,9,2022,Before 32 weeks,1.01,Premature births by week of amenorrhea,1.11,-0.10000000000000009
+07,Ardèche,10,9,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+07,Ardèche,10,9,2022,Less than 2.5kg,6.41,Births according to child weight,7.53,-1.12
+07,Ardèche,10,9,2022,Less than 1.5kg,0.8,Births according to child weight,1.13,-0.32999999999999985
+07,Ardèche,10,9,2022,Under 20 years old,1.97,Births according to mother age,1.82,0.1499999999999999
+07,Ardèche,10,9,2022,20-24 years old,11.29,Births according to mother age,11.23,0.05999999999999872
+07,Ardèche,10,9,2022,25-29 years old,29.89,Births according to mother age,27.68,2.210000000000001
+07,Ardèche,10,9,2022,30-34 years old,34.44,Births according to mother age,34.59,-0.15000000000000568
+07,Ardèche,10,9,2022,35-39 years old,18.02,Births according to mother age,19.36,-1.3399999999999999
+07,Ardèche,10,9,2022,40 years old and above,4.4,Births according to mother age,5.32,-0.9199999999999999
+63,Puy-de-Dôme,10,7,2022,Before 37 weeks,6.15,Premature births by week of amenorrhea,6.81,-0.6599999999999993
+63,Puy-de-Dôme,10,7,2022,Before 32 weeks,0.96,Premature births by week of amenorrhea,1.11,-0.15000000000000013
+63,Puy-de-Dôme,10,7,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+63,Puy-de-Dôme,10,7,2022,Less than 2.5kg,6.64,Births according to child weight,7.53,-0.8900000000000006
+63,Puy-de-Dôme,10,7,2022,Less than 1.5kg,0.94,Births according to child weight,1.13,-0.18999999999999995
+63,Puy-de-Dôme,10,7,2022,Under 20 years old,1.53,Births according to mother age,1.82,-0.29000000000000004
+63,Puy-de-Dôme,10,7,2022,20-24 years old,11.07,Births according to mother age,11.23,-0.16000000000000014
+63,Puy-de-Dôme,10,7,2022,25-29 years old,28.48,Births according to mother age,27.68,0.8000000000000007
+63,Puy-de-Dôme,10,7,2022,30-34 years old,36.52,Births according to mother age,34.59,1.9299999999999997
+63,Puy-de-Dôme,10,7,2022,35-39 years old,17.9,Births according to mother age,19.36,-1.4600000000000009
+63,Puy-de-Dôme,10,7,2022,40 years old and above,4.5,Births according to mother age,5.32,-0.8200000000000003
+40,Landes,11,3,2022,Before 37 weeks,7.45,Premature births by week of amenorrhea,6.81,0.6400000000000006
+40,Landes,11,3,2022,Before 32 weeks,0.94,Premature births by week of amenorrhea,1.11,-0.17000000000000015
+40,Landes,11,3,2022,Before 28 weeks,0.28,Premature births by week of amenorrhea,0.4,-0.12
+40,Landes,11,3,2022,Less than 2.5kg,7.78,Births according to child weight,7.53,0.25
+40,Landes,11,3,2022,Less than 1.5kg,1,Births according to child weight,1.13,-0.1299999999999999
+40,Landes,11,3,2022,Under 20 years old,1.26,Births according to mother age,1.82,-0.56
+40,Landes,11,3,2022,20-24 years old,10.47,Births according to mother age,11.23,-0.7599999999999998
+40,Landes,11,3,2022,25-29 years old,28.04,Births according to mother age,27.68,0.35999999999999943
+40,Landes,11,3,2022,30-34 years old,36.27,Births according to mother age,34.59,1.6799999999999997
+40,Landes,11,3,2022,35-39 years old,19,Births according to mother age,19.36,-0.35999999999999943
+40,Landes,11,3,2022,40 years old and above,4.95,Births according to mother age,5.32,-0.3700000000000001
+976,Mayotte,9,13,2022,Before 37 weeks,9.7,Premature births by week of amenorrhea,6.81,2.8899999999999997
+976,Mayotte,9,13,2022,Before 32 weeks,1.26,Premature births by week of amenorrhea,1.11,0.1499999999999999
+976,Mayotte,9,13,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+976,Mayotte,9,13,2022,Less than 2.5kg,12.68,Births according to child weight,7.53,5.1499999999999995
+976,Mayotte,9,13,2022,Less than 1.5kg,1.49,Births according to child weight,1.13,0.3600000000000001
+976,Mayotte,9,13,2022,Under 20 years old,10.95,Births according to mother age,1.82,9.129999999999999
+976,Mayotte,9,13,2022,20-24 years old,22.73,Births according to mother age,11.23,11.5
+976,Mayotte,9,13,2022,25-29 years old,26.34,Births according to mother age,27.68,-1.3399999999999999
+976,Mayotte,9,13,2022,30-34 years old,21.87,Births according to mother age,34.59,-12.720000000000002
+976,Mayotte,9,13,2022,35-39 years old,13.38,Births according to mother age,19.36,-5.979999999999999
+976,Mayotte,9,13,2022,40 years old and above,4.73,Births according to mother age,5.32,-0.5899999999999999
+47,Lot-et-Garonne,11,4,2022,Before 37 weeks,7.01,Premature births by week of amenorrhea,6.81,0.20000000000000018
+47,Lot-et-Garonne,11,4,2022,Before 32 weeks,1.01,Premature births by week of amenorrhea,1.11,-0.10000000000000009
+47,Lot-et-Garonne,11,4,2022,Before 28 weeks,0.45,Premature births by week of amenorrhea,0.4,0.04999999999999999
+47,Lot-et-Garonne,11,4,2022,Less than 2.5kg,7.52,Births according to child weight,7.53,-0.010000000000000675
+47,Lot-et-Garonne,11,4,2022,Less than 1.5kg,0.94,Births according to child weight,1.13,-0.18999999999999995
+47,Lot-et-Garonne,11,4,2022,Under 20 years old,2.33,Births according to mother age,1.82,0.51
+47,Lot-et-Garonne,11,4,2022,20-24 years old,13.16,Births according to mother age,11.23,1.9299999999999997
+47,Lot-et-Garonne,11,4,2022,25-29 years old,29.36,Births according to mother age,27.68,1.6799999999999997
+47,Lot-et-Garonne,11,4,2022,30-34 years old,33.25,Births according to mother age,34.59,-1.3400000000000034
+47,Lot-et-Garonne,11,4,2022,35-39 years old,17.19,Births according to mother age,19.36,-2.169999999999998
+47,Lot-et-Garonne,11,4,2022,40 years old and above,4.7,Births according to mother age,5.32,-0.6200000000000001
+46,Lot,11,5,2022,Before 37 weeks,5.53,Premature births by week of amenorrhea,6.81,-1.2799999999999994
+46,Lot,11,5,2022,Before 32 weeks,0.6,Premature births by week of amenorrhea,1.11,-0.5100000000000001
+46,Lot,11,5,2022,Before 28 weeks,0.17,Premature births by week of amenorrhea,0.4,-0.23
+46,Lot,11,5,2022,Less than 2.5kg,6.9,Births according to child weight,7.53,-0.6299999999999999
+46,Lot,11,5,2022,Less than 1.5kg,0.85,Births according to child weight,1.13,-0.2799999999999999
+46,Lot,11,5,2022,Under 20 years old,1.29,Births according to mother age,1.82,-0.53
+46,Lot,11,5,2022,20-24 years old,11.62,Births according to mother age,11.23,0.3899999999999988
+46,Lot,11,5,2022,25-29 years old,27.97,Births according to mother age,27.68,0.28999999999999915
+46,Lot,11,5,2022,30-34 years old,34.34,Births according to mother age,34.59,-0.25
+46,Lot,11,5,2022,35-39 years old,18.5,Births according to mother age,19.36,-0.8599999999999994
+46,Lot,11,5,2022,40 years old and above,6.28,Births according to mother age,5.32,0.96
+48,Lozère,11,7,2022,Before 37 weeks,5.16,Premature births by week of amenorrhea,6.81,-1.6499999999999995
+48,Lozère,11,7,2022,Before 32 weeks,0.69,Premature births by week of amenorrhea,1.11,-0.42000000000000015
+48,Lozère,11,7,2022,Before 28 weeks,0.34,Premature births by week of amenorrhea,0.4,-0.06
+48,Lozère,11,7,2022,Less than 2.5kg,6.39,Births according to child weight,7.53,-1.1400000000000006
+48,Lozère,11,7,2022,Less than 1.5kg,1.38,Births according to child weight,1.13,0.25
+48,Lozère,11,7,2022,Under 20 years old,1.21,Births according to mother age,1.82,-0.6100000000000001
+48,Lozère,11,7,2022,20-24 years old,9.84,Births according to mother age,11.23,-1.3900000000000006
+48,Lozère,11,7,2022,25-29 years old,30.57,Births according to mother age,27.68,2.8900000000000006
+48,Lozère,11,7,2022,30-34 years old,38.34,Births according to mother age,34.59,3.75
+48,Lozère,11,7,2022,35-39 years old,16.23,Births according to mother age,19.36,-3.129999999999999
+48,Lozère,11,7,2022,40 years old and above,3.8,Births according to mother age,5.32,-1.5200000000000005
+15,Cantal,11,6,2022,Before 37 weeks,8.28,Premature births by week of amenorrhea,6.81,1.4699999999999998
+15,Cantal,11,6,2022,Before 32 weeks,0.69,Premature births by week of amenorrhea,1.11,-0.42000000000000015
+15,Cantal,11,6,2022,Before 28 weeks,0.2,Premature births by week of amenorrhea,0.4,-0.2
+15,Cantal,11,6,2022,Less than 2.5kg,9.21,Births according to child weight,7.53,1.6800000000000006
+15,Cantal,11,6,2022,Less than 1.5kg,0.78,Births according to child weight,1.13,-0.34999999999999987
+15,Cantal,11,6,2022,Under 20 years old,1.2,Births according to mother age,1.82,-0.6200000000000001
+15,Cantal,11,6,2022,20-24 years old,13.1,Births according to mother age,11.23,1.8699999999999992
+15,Cantal,11,6,2022,25-29 years old,30.3,Births according to mother age,27.68,2.620000000000001
+15,Cantal,11,6,2022,30-34 years old,32,Births according to mother age,34.59,-2.5900000000000034
+15,Cantal,11,6,2022,35-39 years old,19.4,Births according to mother age,19.36,0.03999999999999915
+15,Cantal,11,6,2022,40 years old and above,4,Births according to mother age,5.32,-1.3200000000000003
+26,Drôme,11,8,2022,Before 37 weeks,6.91,Premature births by week of amenorrhea,6.81,0.10000000000000053
+26,Drôme,11,8,2022,Before 32 weeks,0.96,Premature births by week of amenorrhea,1.11,-0.15000000000000013
+26,Drôme,11,8,2022,Before 28 weeks,0.4,Premature births by week of amenorrhea,0.4,0
+26,Drôme,11,8,2022,Less than 2.5kg,7.82,Births according to child weight,7.53,0.29000000000000004
+26,Drôme,11,8,2022,Less than 1.5kg,0.9,Births according to child weight,1.13,-0.22999999999999987
+26,Drôme,11,8,2022,Under 20 years old,1.45,Births according to mother age,1.82,-0.3700000000000001
+26,Drôme,11,8,2022,20-24 years old,10.69,Births according to mother age,11.23,-0.5400000000000009
+26,Drôme,11,8,2022,25-29 years old,30.17,Births according to mother age,27.68,2.490000000000002
+26,Drôme,11,8,2022,30-34 years old,34.7,Births according to mother age,34.59,0.10999999999999943
+26,Drôme,11,8,2022,35-39 years old,18.09,Births according to mother age,19.36,-1.2699999999999996
+26,Drôme,11,8,2022,40 years old and above,4.9,Births according to mother age,5.32,-0.41999999999999993
+84,Vaucluse,11,9,2022,Before 37 weeks,6.6,Premature births by week of amenorrhea,6.81,-0.20999999999999996
+84,Vaucluse,11,9,2022,Before 32 weeks,0.84,Premature births by week of amenorrhea,1.11,-0.27000000000000013
+84,Vaucluse,11,9,2022,Before 28 weeks,0.2,Premature births by week of amenorrhea,0.4,-0.2
+84,Vaucluse,11,9,2022,Less than 2.5kg,6.4,Births according to child weight,7.53,-1.13
+84,Vaucluse,11,9,2022,Less than 1.5kg,0.82,Births according to child weight,1.13,-0.30999999999999994
+84,Vaucluse,11,9,2022,Under 20 years old,1.4,Births according to mother age,1.82,-0.42000000000000015
+84,Vaucluse,11,9,2022,20-24 years old,11.2,Births according to mother age,11.23,-0.030000000000001137
+84,Vaucluse,11,9,2022,25-29 years old,29.11,Births according to mother age,27.68,1.4299999999999997
+84,Vaucluse,11,9,2022,30-34 years old,34.35,Births according to mother age,34.59,-0.240000000000002
+84,Vaucluse,11,9,2022,35-39 years old,18.74,Births according to mother age,19.36,-0.620000000000001
+84,Vaucluse,11,9,2022,40 years old and above,5.19,Births according to mother age,5.32,-0.1299999999999999
+05,Hautes-Alpes,11,10,2022,Before 37 weeks,6.2,Premature births by week of amenorrhea,6.81,-0.6099999999999994
+05,Hautes-Alpes,11,10,2022,Before 32 weeks,0.81,Premature births by week of amenorrhea,1.11,-0.30000000000000004
+05,Hautes-Alpes,11,10,2022,Before 28 weeks,0.08,Premature births by week of amenorrhea,0.4,-0.32
+05,Hautes-Alpes,11,10,2022,Less than 2.5kg,7.77,Births according to child weight,7.53,0.23999999999999932
+05,Hautes-Alpes,11,10,2022,Less than 1.5kg,0.4,Births according to child weight,1.13,-0.7299999999999999
+05,Hautes-Alpes,11,10,2022,Under 20 years old,1.06,Births according to mother age,1.82,-0.76
+05,Hautes-Alpes,11,10,2022,20-24 years old,9.29,Births according to mother age,11.23,-1.9400000000000013
+05,Hautes-Alpes,11,10,2022,25-29 years old,26.89,Births according to mother age,27.68,-0.7899999999999991
+05,Hautes-Alpes,11,10,2022,30-34 years old,39.45,Births according to mother age,34.59,4.859999999999999
+05,Hautes-Alpes,11,10,2022,35-39 years old,18.91,Births according to mother age,19.36,-0.4499999999999993
+05,Hautes-Alpes,11,10,2022,40 years old and above,4.4,Births according to mother age,5.32,-0.9199999999999999
+82,Tarn-et-Garonne,12,5,2022,Before 37 weeks,7.09,Premature births by week of amenorrhea,6.81,0.28000000000000025
+82,Tarn-et-Garonne,12,5,2022,Before 32 weeks,0.93,Premature births by week of amenorrhea,1.11,-0.18000000000000005
+82,Tarn-et-Garonne,12,5,2022,Before 28 weeks,0.27,Premature births by week of amenorrhea,0.4,-0.13
+82,Tarn-et-Garonne,12,5,2022,Less than 2.5kg,7.21,Births according to child weight,7.53,-0.3200000000000003
+82,Tarn-et-Garonne,12,5,2022,Less than 1.5kg,1.01,Births according to child weight,1.13,-0.11999999999999988
+82,Tarn-et-Garonne,12,5,2022,Under 20 years old,2.39,Births according to mother age,1.82,0.5700000000000001
+82,Tarn-et-Garonne,12,5,2022,20-24 years old,14.55,Births according to mother age,11.23,3.3200000000000003
+82,Tarn-et-Garonne,12,5,2022,25-29 years old,29.69,Births according to mother age,27.68,2.0100000000000016
+82,Tarn-et-Garonne,12,5,2022,30-34 years old,31.14,Births according to mother age,34.59,-3.450000000000003
+82,Tarn-et-Garonne,12,5,2022,35-39 years old,17.41,Births according to mother age,19.36,-1.9499999999999993
+82,Tarn-et-Garonne,12,5,2022,40 years old and above,4.81,Births according to mother age,5.32,-0.5100000000000007
+32,Gers,12,4,2022,Before 37 weeks,6.18,Premature births by week of amenorrhea,6.81,-0.6299999999999999
+32,Gers,12,4,2022,Before 32 weeks,0.48,Premature births by week of amenorrhea,1.11,-0.6300000000000001
+32,Gers,12,4,2022,Before 28 weeks,0.27,Premature births by week of amenorrhea,0.4,-0.13
+32,Gers,12,4,2022,Less than 2.5kg,6.37,Births according to child weight,7.53,-1.1600000000000001
+32,Gers,12,4,2022,Less than 1.5kg,0.81,Births according to child weight,1.13,-0.31999999999999984
+32,Gers,12,4,2022,Under 20 years old,1.86,Births according to mother age,1.82,0.040000000000000036
+32,Gers,12,4,2022,20-24 years old,11.52,Births according to mother age,11.23,0.28999999999999915
+32,Gers,12,4,2022,25-29 years old,26.48,Births according to mother age,27.68,-1.1999999999999993
+32,Gers,12,4,2022,30-34 years old,36.9,Births according to mother age,34.59,2.309999999999995
+32,Gers,12,4,2022,35-39 years old,18.14,Births according to mother age,19.36,-1.2199999999999989
+32,Gers,12,4,2022,40 years old and above,5.1,Births according to mother age,5.32,-0.22000000000000064
+30,Gard,12,9,2022,Before 37 weeks,7.35,Premature births by week of amenorrhea,6.81,0.54
+30,Gard,12,9,2022,Before 32 weeks,0.85,Premature births by week of amenorrhea,1.11,-0.2600000000000001
+30,Gard,12,9,2022,Before 28 weeks,0.24,Premature births by week of amenorrhea,0.4,-0.16000000000000003
+30,Gard,12,9,2022,Less than 2.5kg,7.26,Births according to child weight,7.53,-0.27000000000000046
+30,Gard,12,9,2022,Less than 1.5kg,0.91,Births according to child weight,1.13,-0.21999999999999986
+30,Gard,12,9,2022,Under 20 years old,1.79,Births according to mother age,1.82,-0.030000000000000027
+30,Gard,12,9,2022,20-24 years old,12.66,Births according to mother age,11.23,1.4299999999999997
+30,Gard,12,9,2022,25-29 years old,29.66,Births according to mother age,27.68,1.9800000000000004
+30,Gard,12,9,2022,30-34 years old,32.82,Births according to mother age,34.59,-1.7700000000000031
+30,Gard,12,9,2022,35-39 years old,18.33,Births according to mother age,19.36,-1.0300000000000011
+30,Gard,12,9,2022,40 years old and above,4.74,Births according to mother age,5.32,-0.5800000000000001
+12,Aveyron,12,6,2022,Before 37 weeks,6.59,Premature births by week of amenorrhea,6.81,-0.21999999999999975
+12,Aveyron,12,6,2022,Before 32 weeks,0.86,Premature births by week of amenorrhea,1.11,-0.2500000000000001
+12,Aveyron,12,6,2022,Before 28 weeks,0.29,Premature births by week of amenorrhea,0.4,-0.11000000000000004
+12,Aveyron,12,6,2022,Less than 2.5kg,6.95,Births according to child weight,7.53,-0.5800000000000001
+12,Aveyron,12,6,2022,Less than 1.5kg,0.95,Births according to child weight,1.13,-0.17999999999999994
+12,Aveyron,12,6,2022,Under 20 years old,1.2,Births according to mother age,1.82,-0.6200000000000001
+12,Aveyron,12,6,2022,20-24 years old,8.51,Births according to mother age,11.23,-2.7200000000000006
+12,Aveyron,12,6,2022,25-29 years old,30.21,Births according to mother age,27.68,2.530000000000001
+12,Aveyron,12,6,2022,30-34 years old,38.43,Births according to mother age,34.59,3.8399999999999963
+12,Aveyron,12,6,2022,35-39 years old,17.26,Births according to mother age,19.36,-2.099999999999998
+12,Aveyron,12,6,2022,40 years old and above,4.4,Births according to mother age,5.32,-0.9199999999999999
+64,Pyrénées-Atlantiques,12,3,2022,Before 37 weeks,5.96,Premature births by week of amenorrhea,6.81,-0.8499999999999996
+64,Pyrénées-Atlantiques,12,3,2022,Before 32 weeks,0.85,Premature births by week of amenorrhea,1.11,-0.2600000000000001
+64,Pyrénées-Atlantiques,12,3,2022,Before 28 weeks,0.32,Premature births by week of amenorrhea,0.4,-0.08000000000000002
+64,Pyrénées-Atlantiques,12,3,2022,Less than 2.5kg,6.93,Births according to child weight,7.53,-0.6000000000000005
+64,Pyrénées-Atlantiques,12,3,2022,Less than 1.5kg,0.85,Births according to child weight,1.13,-0.2799999999999999
+64,Pyrénées-Atlantiques,12,3,2022,Under 20 years old,0.81,Births according to mother age,1.82,-1.01
+64,Pyrénées-Atlantiques,12,3,2022,20-24 years old,7.62,Births according to mother age,11.23,-3.6100000000000003
+64,Pyrénées-Atlantiques,12,3,2022,25-29 years old,25.15,Births according to mother age,27.68,-2.530000000000001
+64,Pyrénées-Atlantiques,12,3,2022,30-34 years old,39.73,Births according to mother age,34.59,5.1399999999999935
+64,Pyrénées-Atlantiques,12,3,2022,35-39 years old,21.39,Births according to mother age,19.36,2.030000000000001
+64,Pyrénées-Atlantiques,12,3,2022,40 years old and above,5.3,Births according to mother age,5.32,-0.020000000000000462
+81,Tarn,12,7,2022,Before 37 weeks,5.82,Premature births by week of amenorrhea,6.81,-0.9899999999999993
+81,Tarn,12,7,2022,Before 32 weeks,0.84,Premature births by week of amenorrhea,1.11,-0.27000000000000013
+81,Tarn,12,7,2022,Before 28 weeks,0.3,Premature births by week of amenorrhea,0.4,-0.10000000000000003
+81,Tarn,12,7,2022,Less than 2.5kg,6.7,Births according to child weight,7.53,-0.8300000000000001
+81,Tarn,12,7,2022,Less than 1.5kg,0.75,Births according to child weight,1.13,-0.3799999999999999
+81,Tarn,12,7,2022,Under 20 years old,2.16,Births according to mother age,1.82,0.3400000000000001
+81,Tarn,12,7,2022,20-24 years old,11.38,Births according to mother age,11.23,0.15000000000000036
+81,Tarn,12,7,2022,25-29 years old,29.42,Births according to mother age,27.68,1.740000000000002
+81,Tarn,12,7,2022,30-34 years old,35.09,Births according to mother age,34.59,0.5
+81,Tarn,12,7,2022,35-39 years old,16.76,Births according to mother age,19.36,-2.599999999999998
+81,Tarn,12,7,2022,40 years old and above,5.19,Births according to mother age,5.32,-0.1299999999999999
+34,Hérault,12,8,2022,Before 37 weeks,7.15,Premature births by week of amenorrhea,6.81,0.34000000000000075
+34,Hérault,12,8,2022,Before 32 weeks,1.06,Premature births by week of amenorrhea,1.11,-0.050000000000000044
+34,Hérault,12,8,2022,Before 28 weeks,0.28,Premature births by week of amenorrhea,0.4,-0.12
+34,Hérault,12,8,2022,Less than 2.5kg,7.42,Births according to child weight,7.53,-0.11000000000000032
+34,Hérault,12,8,2022,Less than 1.5kg,1.11,Births according to child weight,1.13,-0.019999999999999796
+34,Hérault,12,8,2022,Under 20 years old,1.44,Births according to mother age,1.82,-0.3800000000000001
+34,Hérault,12,8,2022,20-24 years old,10.45,Births according to mother age,11.23,-0.7800000000000011
+34,Hérault,12,8,2022,25-29 years old,26.83,Births according to mother age,27.68,-0.8500000000000014
+34,Hérault,12,8,2022,30-34 years old,35.45,Births according to mother age,34.59,0.8599999999999994
+34,Hérault,12,8,2022,35-39 years old,20.16,Births according to mother age,19.36,0.8000000000000007
+34,Hérault,12,8,2022,40 years old and above,5.68,Births according to mother age,5.32,0.35999999999999943
+04,Alpes de Haute-Provence,12,10,2022,Before 37 weeks,5.57,Premature births by week of amenorrhea,6.81,-1.2399999999999993
+04,Alpes de Haute-Provence,12,10,2022,Before 32 weeks,0.67,Premature births by week of amenorrhea,1.11,-0.44000000000000006
+04,Alpes de Haute-Provence,12,10,2022,Before 28 weeks,0.15,Premature births by week of amenorrhea,0.4,-0.25
+04,Alpes de Haute-Provence,12,10,2022,Less than 2.5kg,6.91,Births according to child weight,7.53,-0.6200000000000001
+04,Alpes de Haute-Provence,12,10,2022,Less than 1.5kg,0.96,Births according to child weight,1.13,-0.16999999999999993
+04,Alpes de Haute-Provence,12,10,2022,Under 20 years old,1.8,Births according to mother age,1.82,-0.020000000000000018
+04,Alpes de Haute-Provence,12,10,2022,20-24 years old,11.99,Births according to mother age,11.23,0.7599999999999998
+04,Alpes de Haute-Provence,12,10,2022,25-29 years old,29.81,Births according to mother age,27.68,2.129999999999999
+04,Alpes de Haute-Provence,12,10,2022,30-34 years old,34.68,Births according to mother age,34.59,0.0899999999999963
+04,Alpes de Haute-Provence,12,10,2022,35-39 years old,17.53,Births according to mother age,19.36,-1.8299999999999983
+04,Alpes de Haute-Provence,12,10,2022,40 years old and above,4.19,Births according to mother age,5.32,-1.13
+06,Alpes-Maritimes,12,11,2022,Before 37 weeks,6.57,Premature births by week of amenorrhea,6.81,-0.23999999999999932
+06,Alpes-Maritimes,12,11,2022,Before 32 weeks,0.91,Premature births by week of amenorrhea,1.11,-0.20000000000000007
+06,Alpes-Maritimes,12,11,2022,Before 28 weeks,0.41,Premature births by week of amenorrhea,0.4,0.009999999999999953
+06,Alpes-Maritimes,12,11,2022,Less than 2.5kg,7.09,Births according to child weight,7.53,-0.4400000000000004
+06,Alpes-Maritimes,12,11,2022,Less than 1.5kg,0.89,Births according to child weight,1.13,-0.23999999999999988
+06,Alpes-Maritimes,12,11,2022,Under 20 years old,0.79,Births according to mother age,1.82,-1.03
+06,Alpes-Maritimes,12,11,2022,20-24 years old,8.19,Births according to mother age,11.23,-3.040000000000001
+06,Alpes-Maritimes,12,11,2022,25-29 years old,25.53,Births according to mother age,27.68,-2.1499999999999986
+06,Alpes-Maritimes,12,11,2022,30-34 years old,36.63,Births according to mother age,34.59,2.039999999999999
+06,Alpes-Maritimes,12,11,2022,35-39 years old,22.15,Births according to mother age,19.36,2.789999999999999
+06,Alpes-Maritimes,12,11,2022,40 years old and above,6.71,Births according to mother age,5.32,1.3899999999999997
+13,Bouches du Rhône,13,9,2022,Before 37 weeks,6.32,Premature births by week of amenorrhea,6.81,-0.4899999999999993
+13,Bouches du Rhône,13,9,2022,Before 32 weeks,1.04,Premature births by week of amenorrhea,1.11,-0.07000000000000006
+13,Bouches du Rhône,13,9,2022,Before 28 weeks,0.32,Premature births by week of amenorrhea,0.4,-0.08000000000000002
+13,Bouches du Rhône,13,9,2022,Less than 2.5kg,7.36,Births according to child weight,7.53,-0.16999999999999993
+13,Bouches du Rhône,13,9,2022,Less than 1.5kg,1.18,Births according to child weight,1.13,0.050000000000000044
+13,Bouches du Rhône,13,9,2022,Under 20 years old,1.39,Births according to mother age,1.82,-0.43000000000000016
+13,Bouches du Rhône,13,9,2022,20-24 years old,10.34,Births according to mother age,11.23,-0.8900000000000006
+13,Bouches du Rhône,13,9,2022,25-29 years old,27.31,Births according to mother age,27.68,-0.370000000000001
+13,Bouches du Rhône,13,9,2022,30-34 years old,34.98,Births according to mother age,34.59,0.38999999999999346
+13,Bouches du Rhône,13,9,2022,35-39 years old,20.22,Births according to mother age,19.36,0.8599999999999994
+13,Bouches du Rhône,13,9,2022,40 years old and above,5.77,Births according to mother age,5.32,0.4499999999999993
+65,Hautes-Pyrénées,13,3,2022,Before 37 weeks,7.24,Premature births by week of amenorrhea,6.81,0.4300000000000006
+65,Hautes-Pyrénées,13,3,2022,Before 32 weeks,0.96,Premature births by week of amenorrhea,1.11,-0.15000000000000013
+65,Hautes-Pyrénées,13,3,2022,Before 28 weeks,0.23,Premature births by week of amenorrhea,0.4,-0.17
+65,Hautes-Pyrénées,13,3,2022,Less than 2.5kg,8.38,Births according to child weight,7.53,0.8500000000000005
+65,Hautes-Pyrénées,13,3,2022,Less than 1.5kg,0.91,Births according to child weight,1.13,-0.21999999999999986
+65,Hautes-Pyrénées,13,3,2022,Under 20 years old,2.23,Births according to mother age,1.82,0.4099999999999999
+65,Hautes-Pyrénées,13,3,2022,20-24 years old,13.56,Births according to mother age,11.23,2.33
+65,Hautes-Pyrénées,13,3,2022,25-29 years old,27.52,Births according to mother age,27.68,-0.16000000000000014
+65,Hautes-Pyrénées,13,3,2022,30-34 years old,34.32,Births according to mother age,34.59,-0.2700000000000031
+65,Hautes-Pyrénées,13,3,2022,35-39 years old,17.85,Births according to mother age,19.36,-1.509999999999998
+65,Hautes-Pyrénées,13,3,2022,40 years old and above,4.52,Births according to mother age,5.32,-0.8000000000000007
+31,Haute-Garonne,13,4,2022,Before 37 weeks,6.24,Premature births by week of amenorrhea,6.81,-0.5699999999999994
+31,Haute-Garonne,13,4,2022,Before 32 weeks,1.02,Premature births by week of amenorrhea,1.11,-0.09000000000000008
+31,Haute-Garonne,13,4,2022,Before 28 weeks,0.38,Premature births by week of amenorrhea,0.4,-0.020000000000000018
+31,Haute-Garonne,13,4,2022,Less than 2.5kg,6.94,Births according to child weight,7.53,-0.5899999999999999
+31,Haute-Garonne,13,4,2022,Less than 1.5kg,1.04,Births according to child weight,1.13,-0.08999999999999986
+31,Haute-Garonne,13,4,2022,Under 20 years old,1.24,Births according to mother age,1.82,-0.5800000000000001
+31,Haute-Garonne,13,4,2022,20-24 years old,8.78,Births according to mother age,11.23,-2.450000000000001
+31,Haute-Garonne,13,4,2022,25-29 years old,25.47,Births according to mother age,27.68,-2.210000000000001
+31,Haute-Garonne,13,4,2022,30-34 years old,37.26,Births according to mother age,34.59,2.6699999999999946
+31,Haute-Garonne,13,4,2022,35-39 years old,21.65,Births according to mother age,19.36,2.289999999999999
+31,Haute-Garonne,13,4,2022,40 years old and above,5.6,Births according to mother age,5.32,0.27999999999999936
+11,Aude,13,6,2022,Before 37 weeks,6.78,Premature births by week of amenorrhea,6.81,-0.02999999999999936
+11,Aude,13,6,2022,Before 32 weeks,1.27,Premature births by week of amenorrhea,1.11,0.15999999999999992
+11,Aude,13,6,2022,Before 28 weeks,0.44,Premature births by week of amenorrhea,0.4,0.03999999999999998
+11,Aude,13,6,2022,Less than 2.5kg,7.47,Births according to child weight,7.53,-0.0600000000000005
+11,Aude,13,6,2022,Less than 1.5kg,1.05,Births according to child weight,1.13,-0.07999999999999985
+11,Aude,13,6,2022,Under 20 years old,2.78,Births according to mother age,1.82,0.9599999999999997
+11,Aude,13,6,2022,20-24 years old,13.33,Births according to mother age,11.23,2.0999999999999996
+11,Aude,13,6,2022,25-29 years old,28.7,Births according to mother age,27.68,1.0199999999999996
+11,Aude,13,6,2022,30-34 years old,33.37,Births according to mother age,34.59,-1.220000000000006
+11,Aude,13,6,2022,35-39 years old,16.46,Births according to mother age,19.36,-2.8999999999999986
+11,Aude,13,6,2022,40 years old and above,5.37,Births according to mother age,5.32,0.04999999999999982
+09,Ariège,13,5,2022,Before 37 weeks,5.49,Premature births by week of amenorrhea,6.81,-1.3199999999999994
+09,Ariège,13,5,2022,Before 32 weeks,0.76,Premature births by week of amenorrhea,1.11,-0.3500000000000001
+09,Ariège,13,5,2022,Before 28 weeks,0.17,Premature births by week of amenorrhea,0.4,-0.23
+09,Ariège,13,5,2022,Less than 2.5kg,6.79,Births according to child weight,7.53,-0.7400000000000002
+09,Ariège,13,5,2022,Less than 1.5kg,0.76,Births according to child weight,1.13,-0.3699999999999999
+09,Ariège,13,5,2022,Under 20 years old,1.43,Births according to mother age,1.82,-0.3900000000000001
+09,Ariège,13,5,2022,20-24 years old,13.15,Births according to mother age,11.23,1.92
+09,Ariège,13,5,2022,25-29 years old,25.97,Births according to mother age,27.68,-1.7100000000000009
+09,Ariège,13,5,2022,30-34 years old,33.64,Births according to mother age,34.59,-0.9500000000000028
+09,Ariège,13,5,2022,35-39 years old,20.07,Births according to mother age,19.36,0.7100000000000009
+09,Ariège,13,5,2022,40 years old and above,5.73,Births according to mother age,5.32,0.41000000000000014
+66,Pyrénées-Orientales,13,7,2022,Before 37 weeks,6.65,Premature births by week of amenorrhea,6.81,-0.15999999999999925
+66,Pyrénées-Orientales,13,7,2022,Before 32 weeks,0.89,Premature births by week of amenorrhea,1.11,-0.22000000000000008
+66,Pyrénées-Orientales,13,7,2022,Before 28 weeks,0.35,Premature births by week of amenorrhea,0.4,-0.050000000000000044
+66,Pyrénées-Orientales,13,7,2022,Less than 2.5kg,7.76,Births according to child weight,7.53,0.22999999999999954
+66,Pyrénées-Orientales,13,7,2022,Less than 1.5kg,0.95,Births according to child weight,1.13,-0.17999999999999994
+66,Pyrénées-Orientales,13,7,2022,Under 20 years old,3.58,Births according to mother age,1.82,1.76
+66,Pyrénées-Orientales,13,7,2022,20-24 years old,14.3,Births according to mother age,11.23,3.0700000000000003
+66,Pyrénées-Orientales,13,7,2022,25-29 years old,27.56,Births according to mother age,27.68,-0.120000000000001
+66,Pyrénées-Orientales,13,7,2022,30-34 years old,31.12,Births according to mother age,34.59,-3.4700000000000024
+66,Pyrénées-Orientales,13,7,2022,35-39 years old,18.63,Births according to mother age,19.36,-0.7300000000000004
+66,Pyrénées-Orientales,13,7,2022,40 years old and above,4.81,Births according to mother age,5.32,-0.5100000000000007
+83,Var,13,10,2022,Before 37 weeks,6.23,Premature births by week of amenorrhea,6.81,-0.5799999999999992
+83,Var,13,10,2022,Before 32 weeks,0.73,Premature births by week of amenorrhea,1.11,-0.3800000000000001
+83,Var,13,10,2022,Before 28 weeks,0.27,Premature births by week of amenorrhea,0.4,-0.13
+83,Var,13,10,2022,Less than 2.5kg,7.45,Births according to child weight,7.53,-0.08000000000000007
+83,Var,13,10,2022,Less than 1.5kg,0.85,Births according to child weight,1.13,-0.2799999999999999
+83,Var,13,10,2022,Under 20 years old,1.03,Births according to mother age,1.82,-0.79
+83,Var,13,10,2022,20-24 years old,9.95,Births according to mother age,11.23,-1.2800000000000011
+83,Var,13,10,2022,25-29 years old,29.28,Births according to mother age,27.68,1.6000000000000014
+83,Var,13,10,2022,30-34 years old,34.56,Births according to mother age,34.59,-0.030000000000001137
+83,Var,13,10,2022,35-39 years old,19.94,Births according to mother age,19.36,0.5800000000000018
+83,Var,13,10,2022,40 years old and above,5.24,Births according to mother age,5.32,-0.08000000000000007
+2A,Corse du Sud,14,12,2022,Before 37 weeks,6.26,Premature births by week of amenorrhea,6.81,-0.5499999999999998
+2A,Corse du Sud,14,12,2022,Before 32 weeks,0.68,Premature births by week of amenorrhea,1.11,-0.43000000000000005
+2A,Corse du Sud,14,12,2022,Before 28 weeks,0.23,Premature births by week of amenorrhea,0.4,-0.17
+2A,Corse du Sud,14,12,2022,Less than 2.5kg,6.79,Births according to child weight,7.53,-0.7400000000000002
+2A,Corse du Sud,14,12,2022,Less than 1.5kg,0.53,Births according to child weight,1.13,-0.5999999999999999
+2A,Corse du Sud,14,12,2022,Under 20 years old,0.61,Births according to mother age,1.82,-1.21
+2A,Corse du Sud,14,12,2022,20-24 years old,8.85,Births according to mother age,11.23,-2.380000000000001
+2A,Corse du Sud,14,12,2022,25-29 years old,27.15,Births according to mother age,27.68,-0.5300000000000011
+2A,Corse du Sud,14,12,2022,30-34 years old,38.37,Births according to mother age,34.59,3.779999999999994
+2A,Corse du Sud,14,12,2022,35-39 years old,18.38,Births according to mother age,19.36,-0.9800000000000004
+2A,Corse du Sud,14,12,2022,40 years old and above,6.64,Births according to mother age,5.32,1.3199999999999994
+2B,Haute-Corse,15,12,2022,Before 37 weeks,5.02,Premature births by week of amenorrhea,6.81,-1.79
+2B,Haute-Corse,15,12,2022,Before 32 weeks,0.72,Premature births by week of amenorrhea,1.11,-0.3900000000000001
+2B,Haute-Corse,15,12,2022,Before 28 weeks,0.29,Premature births by week of amenorrhea,0.4,-0.11000000000000004
+2B,Haute-Corse,15,12,2022,Less than 2.5kg,5.92,Births according to child weight,7.53,-1.6100000000000003
+2B,Haute-Corse,15,12,2022,Less than 1.5kg,0.86,Births according to child weight,1.13,-0.2699999999999999
+2B,Haute-Corse,15,12,2022,Under 20 years old,0.58,Births according to mother age,1.82,-1.2400000000000002
+2B,Haute-Corse,15,12,2022,20-24 years old,8.58,Births according to mother age,11.23,-2.6500000000000004
+2B,Haute-Corse,15,12,2022,25-29 years old,27.11,Births according to mother age,27.68,-0.5700000000000003
+2B,Haute-Corse,15,12,2022,30-34 years old,35.83,Births according to mother age,34.59,1.2399999999999949
+2B,Haute-Corse,15,12,2022,35-39 years old,21.56,Births according to mother age,19.36,2.1999999999999993
+2B,Haute-Corse,15,12,2022,40 years old and above,6.34,Births according to mother age,5.32,1.0199999999999996
