@@ -164,7 +164,7 @@ value_box3 = filtered_last.filter(function(x) {
 ### Row
 
 ```{ojs}
-//| title: Births by mother age - comparison across areas
+//| title: Naissances selon l'âge de la mère - départements
 
 // barcode with value
 Plot.plot({
@@ -189,7 +189,7 @@ Plot.plot({
 ### Row
 
 ```{ojs}
-//| title: Births by mother age - change over time
+//| title: Naissances selon l'âge de la mère - dans le temps
 
 Plot.plot({
     x:{label: "Année", domain: [2012, 2022], tickFormat: ""},
