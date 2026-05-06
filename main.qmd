@@ -242,7 +242,7 @@ data_grid_filtered = data_grid.filter(function(x){
 ### Column
 
 ```{ojs}
-//| title: Grid cartogram of choosen indicator and dimension
+//| title: Cartogramme
 
 // indicateur global sur un graph
 Plot.plot({
