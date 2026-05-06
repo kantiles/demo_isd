@@ -24,7 +24,7 @@ data = transpose(data_init)
 data_grid = transpose(data_grid_init)
 ```
 
-# Geography
+# Geographie
 
 ## {.sidebar}
 
