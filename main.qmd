@@ -1,12 +1,11 @@
 ---
-title: "Birth indicators in France"
+title: "Santé Périnatale en France"
 format: 
   dashboard:
     orientation: rows
     nav-buttons:
         - icon: github
           href: https://github.com/kantiles/demo_isd
-    mainfont: Outfit
     theme:
       - custom.scss
 ---
@@ -89,7 +88,7 @@ frMap = (value) => {
 Inputs.bind(
   Inputs.select(
     new Map(depContours.features.map(d => [d.properties.LIBELLE_DEPARTEMENT, d.properties.INSEE_DEP])), 
-  {sort: true, label: "Select an area: ", format: ([name, value]) => `${name}`}), 
+  {sort: true, label: "Département: ", format: ([name, value]) => `${name}`}), 
   viewof dep
   )
 
@@ -109,13 +108,13 @@ filtered = data.filter(function(x) {
 // filter for each graph
 // to do - function to wrap that
 filtered_c22 = filtered.filter(function(x) {
-  return x.isd == "Premature births by week of amenorrhea"})
+  return x.isd == "Naissances prématurées"})
 
 filtered_c23 = filtered.filter(function(x) {
-  return x.isd == "Births according to child weight"})
+  return x.isd == "Poids de naissance"})
 
 filtered_c24 = filtered.filter(function(x) {
-  return x.isd == "Births according to mother age"})
+  return x.isd == "Âge de la mère"})
 
 // last year
 data_last = data.filter(function(x) {
@@ -124,10 +123,6 @@ data_last = data.filter(function(x) {
 filtered_last = data_last.filter(function(x) {
   return dep == x.code_geo})
 ```
-
-:::sidebar-note
-Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles](https://kantiles.com/).
-:::
 
 ## Column
 
@@ -138,32 +133,32 @@ Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles
 
 // see https://github.com/quarto-dev/quarto-cli/issues/8823
 value_box1 = filtered_last.filter(function(x) {
-  return x.indicator == "Under 20 years old"})[0]["value"]
+  return x.indicator == "Moins de 20 ans"})[0]["value"]
 ```
 
 ::: {.valuebox icon="person-standing-dress" color="primary"}
-**`{ojs} value_box1`**% of births from mother aged under 20
+**`{ojs} value_box1`**% de naissances de mères de moins de 20 ans
 :::
 
 ```{ojs}
 //| output: false
 
 value_box2 = filtered_last.filter(function(x) {
-  return x.indicator == "Less than 2.5kg"})[0]["value"]
+  return x.indicator == "Moins de 2.5kg"})[0]["value"]
 ```
 
 ::: {.valuebox icon="rulers" color="danger"}
-**`{ojs} value_box2`**% of babies borned under 2.5kg
+**`{ojs} value_box2`**% d'enfants de moins de 2,5kg
 :::
 
 ```{ojs}
 //| output: false
 value_box3 = filtered_last.filter(function(x) {
-  return x.indicator == "Before 37 weeks"})[0]["value"]
+  return x.indicator == "Avant 37 semaines"})[0]["value"]
 ```
 
 ::: {.valuebox icon="calendar-week" color="warning"}
-**`{ojs} value_box3`**% of births before 37 weeks
+**`{ojs} value_box3`**% de naissance avant 37 semaines
 :::
 
 ### Row
@@ -171,24 +166,22 @@ value_box3 = filtered_last.filter(function(x) {
 ```{ojs}
 //| title: Births by mother age - comparison across areas
 
-// todo : function
-
 // barcode with value
 Plot.plot({
   x: {label: "%"},
   y: {label: null,
-   domain:["Under 20 years old",
-            "20-24 years old",
-            "25-29 years old",
-            "30-34 years old",
-            "35-39 years old",
-            "40 years old and above"]},
+   domain:["Moins de 20 ans",
+      "20-24 ans",
+      "25-29 ans",
+      "30-34 ans",
+      "35-39 ans",
+      "40 ans et plus"]},
   marginLeft: 130,
     marks : [
         Plot.tickX(data_last.filter(function(x) {
-  return x.isd == "Births according to mother age"}), {x: "value", y: "indicator", stroke:"lightgrey", channels: {Area: "code_geo"}, tip: true}),
+  return x.isd == "Âge de la mère"}), {x: "value", y: "indicator", stroke:"lightgrey", channels: {Area: "code_geo"}, tip: true}),
         Plot.tickX(filtered_last.filter(function(x) {
-  return x.isd == "Births according to mother age"}), {x: "value", y: "indicator", stroke:"red"})
+  return x.isd == "Âge de la mère"}), {x: "value", y: "indicator", stroke:"red"})
     ]
     })
 ```
@@ -198,30 +191,28 @@ Plot.plot({
 ```{ojs}
 //| title: Births by mother age - change over time
 
-// ajouter plus grande valeur ou derniere
 Plot.plot({
-    x:{label: "Year", domain: [2012, 2022], tickFormat: ""},
-    y:{label: "Difference to France (in %)"},
+    x:{label: "Année", domain: [2012, 2022], tickFormat: ""},
+    y:{label: "Différence au national (%)"},
     color: {
       legend: true,
       type: "categorical",
-      domain:["Under 20 years old",
-            "20-24 years old",
-            "25-29 years old",
-            "30-34 years old",
-            "35-39 years old",
-            "40 years old and above"]
-    },
+        domain:[  "Moins de 20 ans",
+      "20-24 ans",
+      "25-29 ans",
+      "30-34 ans",
+      "35-39 ans",
+      "40 ans et plus"]}
+    ,
     marks : [
         Plot.ruleY(filtered_c24, {x1: 2012, x2: 2022, y: 0, stroke: "grey"}),
         Plot.lineY(filtered_c24, {x: "annee", y: "diff", stroke: "indicator", marker: "circle", tip: true})
 
-    ]
-    })
-
+    ]}
+    )
 ```
 
-# Indicators
+# Indicateurs
 
 ## {.toolbar}
 
@@ -229,12 +220,12 @@ Plot.plot({
 // radio inputs
 viewof isd = Inputs.radio(
    data.map(d => d.isd), 
-   {sort: true, unique: true, value: "Births according to mother age", label: "Indicator: "}
+   {sort: true, unique: true, value: "Âge de la mère", label: "Indicateur: "}
 )
 
 viewof indicator = Inputs.radio(
    data.filter((x)=>{return x.isd == isd}).map(d =>d.indicator), 
-   {sort: true, unique: true, value: "25-29 years old", label: "Dimension: "}
+   {sort: true, unique: true, value: "25-29 ans", label: "Dimension: "}
 )
 ```
 
@@ -245,10 +236,6 @@ data_grid_filtered = data_grid.filter(function(x){
       })
 
 ```
-
-:::sidebar-note-right
-Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles](https://kantiles.com/).
-:::
 
 ## Row
 
@@ -274,14 +261,8 @@ Plot.plot({
 })
 ```
 
-# About
+# À propos
 
-// faire un sub fichier pour voir si c'est possible
+Données [Drees](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/1520_indicateurs-de-sante-perinatale/information/).
 
-This dashboard is an exploration around some context indicators about births in France. It aims at showing some capabilities of [Observable JS](https://observablehq.com/) and [Quarto Dashboard](https://quarto.org/docs/dashboards/interactivity/observable.html) to display data in a reactive context. Data cleaning and wrangling was done in R by Kantiles. Code is available on [Github](https://github.com/kantiles/demo_isd).
-
-Data comes from [France's Ministry of Health](https://data.drees.solidarites-sante.gouv.fr/explore/dataset/1520_indicateurs-de-sante-perinatale/information/).
-
-Built by [Thomas Vroylandt](https://tvroylandt.github.io/personal/) at [Kantiles](https://kantiles.com/).
-
-> This vizualisation hasn't been approved by the Ministry of Health and should only be use as a demonstrator. Please see the official dashboard on [VILAS](https://odin-dataviz-drees.sante.gouv.fr/digdash_dashboard_dataviz_drees/?defaultPage=vilas_Accueil&user=dataviz_sante&pass=dataviz_sante).
+Réalisé par [Thomas Vroylandt](https://tvroylandt.github.io/personal/), [Kantiles](https://kantiles.com/).
